@@ -4,6 +4,9 @@ import React, { Component } from "react";
 import Button from 'react-bootstrap/Button';
 import { LinkContainer } from "react-router-bootstrap";
 
+// logo
+import Logo from "../../../assets/img/ProjectThumbnail/Cellier.gif"
+
 // css
 import "../../../assets/css/everything.css";
 
@@ -15,7 +18,7 @@ export default class Cellier extends Component {
           <div className="cellier__image">
             <img
               alt="cellier logo"
-              src="/cellier.svg"
+              src={Logo}
               width="454"
               height="454"
               className="cellier__logo"

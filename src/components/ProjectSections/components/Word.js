@@ -1,6 +1,13 @@
 import React, { Component } from "react";
-import Button from "react-bootstrap-button-loader";
+
+// bootstrap
+import Button from 'react-bootstrap/Button';
 import { LinkContainer } from "react-router-bootstrap";
+
+// logo
+import Logo from "../../../assets/img/ProjectThumbnail/Word.png"
+
+// css
 import "../../../assets/css/everything.css";
 
 export default class Word extends Component {
@@ -11,7 +18,7 @@ export default class Word extends Component {
           <div className="word__image">
             <img
               alt="word logo"
-              src="/word.svg"
+              src={Logo}
               width="454"
               height="454"
               className="word__logo"

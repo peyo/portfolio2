@@ -23,7 +23,7 @@ body {
     rgba(0, 0, 0, 0.5) 100%
   );
   position: relative;
-  background-image: url(../../assets/img/LandingPageHeader.png);
+  background-image: url(../../assets/img/Hero/LPHero.jpg);
   background-size: 100% 100%;
 }
 
@@ -130,7 +130,7 @@ body {
     rgba(0, 0, 0, 0.5) 100%
   );
   position: relative;
-  background-image: url(../../assets/img/ProjectPageHeader.jpeg);
+  background-image: url(../../assets/img/Hero/MechHero.jpeg);
   background-size: 100% 100%;
 }
 
@@ -228,7 +228,7 @@ body {
 .mechFooter__container {
   padding: 120px;
   text-align: center;
-  background-image: url(../../assets/img/ProjectPageFooter.png);
+  background-image: url(../../assets/img/Footer/Footer.png);
   background-size: 100% 100%;
 }
 
@@ -262,7 +262,7 @@ body {
     rgba(0, 0, 0, 0.5) 100%
   );
   position: relative;
-  background-image: url(../../assets/img/ProjectPageHeader.jpeg);
+  background-image: url(../../assets/img/Hero/CellierHero.jpeg);
   background-size: 100% 100%;
 }
 
@@ -356,7 +356,7 @@ body {
 .cellierFooter__container {
   padding: 120px;
   text-align: center;
-  background-image: url(../../assets/img/ProjectPageFooter.png);
+  background-image: url(../../assets/img/Footer/Footer.png);
   background-size: 100% 100%;
 }
 
@@ -390,7 +390,7 @@ body {
     rgba(0, 0, 0, 0.5) 100%
   );
   position: relative;
-  background-image: url(../../assets/img/ProjectPageHeader.jpeg);
+  background-image: url(../../assets/img/Hero/WordHero.png);
   background-size: 100% 100%;
 }
 
@@ -484,7 +484,7 @@ body {
 .wordFooter__container {
   padding: 120px;
   text-align: center;
-  background-image: url(../../assets/img/ProjectPageFooter.png);
+  background-image: url(../../assets/img/Footer/Footer.png);
   background-size: 100% 100%;
 }
 

@@ -4,6 +4,9 @@ import React, { Component } from "react";
 import Button from 'react-bootstrap/Button';
 import { LinkContainer } from "react-router-bootstrap";
 
+// logo
+import Logo from "../../../assets/img/ProjectThumbnail/Mech.png"
+
 // css
 import "../../../assets/css/everything.css";
 
@@ -15,7 +18,7 @@ export default class Mech extends Component {
           <div className="mech__image">
             <img
               alt="mech logo"
-              src="/mech.svg"
+              src={Logo}
               width="454"
               height="454"
               className="mech__logo"
