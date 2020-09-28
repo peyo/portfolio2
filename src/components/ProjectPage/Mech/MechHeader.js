@@ -1,5 +1,12 @@
 import React, { Component } from "react";
+
+//boot strap
 import Navbar from "react-bootstrap/Navbar";
+
+// logo
+import Logo from "../../../assets/img/Logo.svg";
+
+// css
 import "../../../assets/css/everything.css";
 
 export default class MechHeader extends Component {
@@ -10,10 +17,8 @@ export default class MechHeader extends Component {
           <Navbar.Brand href="/">
             <img
               alt="peyo's logo"
-              src="../../assets/img/Logo.svg"
-              width="30"
-              height="30"
-              className="header__navbar"
+              src={Logo}
+              className="mechHeader__logo"
             />{" "}
           </Navbar.Brand>
         </Navbar>

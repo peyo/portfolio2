@@ -17,7 +17,7 @@ import "../../assets/css/everything.css";
 export default class CellierPage extends Component {
   render() {
     return (
-      <section className="mechPage">
+      <section className="cellierPage">
         <CellierHeader />
         <CellierChallenge />
         <CellierApproach />

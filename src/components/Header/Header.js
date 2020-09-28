@@ -1,6 +1,13 @@
 import React, { Component } from "react";
+
+// bootstrap
 import Navbar from "react-bootstrap/Navbar"
 import Nav from "react-bootstrap/Nav";
+
+// logo
+import Logo from "../../assets/img/Logo.svg";
+
+// css
 import "../../assets/css/everything.css";
 
 export default class Header extends Component {
@@ -8,19 +15,17 @@ export default class Header extends Component {
     return (
       <section className="header__header">
         <Navbar className="justify-content-between">
-          <Navbar.Brand href="/">
+          <Navbar.Brand>
             <img
               alt="peyo's logo"
-              src="../../assets/img/Logo.svg"
-              width="30"
-              height="30"
-              className="header__navbar"
+              src={Logo}
+              className="header__logo"
             />{" "}
           </Navbar.Brand>
           <Nav className="mr-sm-2">
-            <Nav.Link href="#linkedin">linkedin</Nav.Link>
-            <Nav.Link href="#github">github</Nav.Link>
-            <Nav.Link href="#resume">resume</Nav.Link>
+            <Nav.Link href="https://www.linkedin.com/in/peteryyoon/" target="_blank">linkedin</Nav.Link>
+            <Nav.Link href="https://github.com/peyo" target="_blank">github</Nav.Link>
+            <Nav.Link href="/resume-page/resume" target="_blank">resume</Nav.Link>
           </Nav>
         </Navbar>
         <div className="header__container">

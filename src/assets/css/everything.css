@@ -27,6 +27,11 @@ body {
   background-size: 100% 100%;
 }
 
+.header__logo {
+  width: 30px;
+  height: 30px;
+}
+
 .header__container {
   display: flex;
   flex-direction: column;
@@ -127,6 +132,13 @@ body {
   position: relative;
   background-image: url(../../assets/img/ProjectPageHeader.jpeg);
   background-size: 100% 100%;
+}
+
+.mechHeader__logo {
+  width: 30px;
+  height: 30px;
+  -webkit-filter: invert(1);
+  filter: invert(1);
 }
 
 .mechHeader__container {
@@ -249,6 +261,13 @@ body {
   background-size: 100% 100%;
 }
 
+.cellierHeader__logo {
+  width: 30px;
+  height: 30px;
+  -webkit-filter: invert(1);
+  filter: invert(1);
+}
+
 .cellierHeader__container {
   display: flex;
   flex-direction: column;
@@ -363,6 +382,13 @@ body {
   position: relative;
   background-image: url(../../assets/img/ProjectPageHeader.jpeg);
   background-size: 100% 100%;
+}
+
+.wordHeader__logo {
+  width: 30px;
+  height: 30px;
+  -webkit-filter: invert(1);
+  filter: invert(1);
 }
 
 .wordHeader__container {
