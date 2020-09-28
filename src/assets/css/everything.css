@@ -1,0 +1,467 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Barlow;
+}
+
+.landingPage {
+  display: flex;
+  flex-direction: column;
+}
+
+/* landing page header */
+
+.header__header {
+  height: 99vh;
+  background-color: #f0f0f0;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.5) 0%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+  position: relative;
+  background-image: url(../../assets/img/LandingPageHeader.png);
+  background-size: 100% 100%;
+}
+
+.header__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 99vh;
+  padding: 0 120px 0 120px;
+}
+
+.header__helloWorld {
+  color: #000000;
+  font-size: 72px;
+  letter-spacing: 0;
+  line-height: 86px;
+}
+
+.header__spacing1 {
+  height: 30px;
+}
+
+.header__shortBio {
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: 43px;
+}
+
+.header__spacing2 {
+  height: 90px;
+}
+
+/* landing page sections */
+
+.mech__container,
+.cellier__container,
+.word__container {
+  display: flex;
+  text-align: left;
+  align-items: center;
+  padding: 225px 0 225px 120px;
+}
+
+.mech__spacing1,
+.cellier__spacing1,
+.word__spacing1 {
+  width: 120px;
+}
+
+.mech__title,
+.cellier__title,
+.word__title {
+  font-size: 72px;
+  letter-spacing: 0;
+  line-height: 90px;
+}
+
+.mech__shortTitle,
+.cellier__shortTitle,
+.word__shortTitle {
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: 45px;
+}
+
+.mech__spacing2,
+.cellier__spacing2,
+.word__spacing2 {
+  height: 30px;
+}
+
+.mech__technologies,
+.cellier__technologies,
+.word__technologies {
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 36px;
+}
+
+.mech__spacing3,
+.cellier__spacing3,
+.word__spacing3 {
+  height: 30px;
+}
+
+.line__line {
+  height: 9px;
+  background-color: #979797;
+}
+
+/* mech project page header */
+
+.mechHeader__header {
+  height: 99vh;
+  background-color: #f0f0f0;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.5) 0%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+  position: relative;
+  background-image: url(../../assets/img/ProjectPageHeader.jpeg);
+  background-size: 100% 100%;
+}
+
+.mechHeader__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 99vh;
+  padding: 180px;
+}
+
+.mechHeader__shortDescription {
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: 43px;
+  color: white;
+}
+
+.mechHeader__spacing1 {
+  height: 90px;
+}
+
+/* mech project page sections */
+
+.mechChallenge__container {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  padding: 180px;
+}
+
+.mechChallenge__title,
+.mechApproach__title,
+.mechInitialBrainstorm__title,
+.mechUserFlow__title,
+.mechAlphaTesting__title,
+.mechPrototype__title,
+.mechLearnings__title,
+.mechNext__title {
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: 45px;
+}
+
+.mechChallenge__spacing1,
+.mechApproach__spacing1,
+.mechInitialBrainstorm__spacing1,
+.mechUserFlow__spacing1,
+.mechAlphaTesting__spacing1,
+.mechPrototype__spacing1,
+.mechLearnings__spacing1,
+.mechNext__spacing1 {
+  height: 30px;
+}
+
+.mechChallenge__description,
+.mechApproach__description,
+.mechInitialBrainstorm__description,
+.mechUserFlow__description,
+.mechAlphaTesting__description,
+.mechPrototype__description,
+.mechLearnings__description,
+.mechNext__description {
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 36px;
+}
+
+.mechApproach__container,
+.mechInitialBrainstorm__container,
+.mechUserFlow__container,
+.mechAlphaTesting__container,
+.mechPrototype__container,
+.mechLearnings__container,
+.mechNext__container {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  padding: 0 180px 180px 180px;
+}
+
+.mechNext__ul {
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+}
+
+.mechFooter__container {
+  padding: 120px;
+  text-align: center;
+  background-image: url(../../assets/img/ProjectPageFooter.png);
+  background-size: 100% 100%;
+}
+
+.mechFooter__title {
+  font-size: 36px;
+  opacity: 0.38;
+  letter-spacing: 0;
+  line-height: 45px;
+  text-decoration: underline;
+}
+
+.mechFooter__subtitle {
+  font-size: 72px;
+  letter-spacing: 0;
+  line-height: 90px;
+}
+
+/* cellier project page header */
+
+.cellierHeader__header {
+  height: 99vh;
+  background-color: #f0f0f0;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.5) 0%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+  position: relative;
+  background-image: url(../../assets/img/ProjectPageHeader.jpeg);
+  background-size: 100% 100%;
+}
+
+.cellierHeader__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 99vh;
+  padding: 180px;
+}
+
+.cellierHeader__shortDescription {
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: 43px;
+  color: white;
+}
+
+.cellierHeader__spacing1 {
+  height: 90px;
+}
+
+/* cellier project page sections */
+
+.cellierChallenge__container {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  padding: 180px;
+}
+
+.cellierChallenge__title,
+.cellierApproach__title,
+.cellierInitialBrainstorm__title,
+.cellierUserFlow__title,
+.cellierPrototype__title,
+.cellierLearnings__title,
+.cellierNext__title {
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: 45px;
+}
+
+.cellierChallenge__spacing1,
+.cellierApproach__spacing1,
+.cellierInitialBrainstorm__spacing1,
+.cellierUserFlow__spacing1,
+.cellierPrototype__spacing1,
+.cellierLearnings__spacing1,
+.cellierNext__spacing1 {
+  height: 30px;
+}
+
+.cellierChallenge__description,
+.cellierApproach__description,
+.cellierInitialBrainstorm__description,
+.cellierUserFlow__description,
+.cellierPrototype__description,
+.cellierLearnings__description,
+.cellierNext__description {
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 36px;
+}
+
+.cellierApproach__container,
+.cellierInitialBrainstorm__container,
+.cellierUserFlow__container,
+.cellierPrototype__container,
+.cellierLearnings__container,
+.cellierNext__container {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  padding: 0 180px 180px 180px;
+}
+
+.cellierNext__ul {
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+}
+
+.cellierFooter__container {
+  padding: 120px;
+  text-align: center;
+  background-image: url(../../assets/img/ProjectPageFooter.png);
+  background-size: 100% 100%;
+}
+
+.cellierFooter__title {
+  font-size: 36px;
+  opacity: 0.38;
+  letter-spacing: 0;
+  line-height: 45px;
+  text-decoration: underline;
+}
+
+.cellierFooter__subtitle {
+  font-size: 72px;
+  letter-spacing: 0;
+  line-height: 90px;
+}
+
+/* word project page header */
+
+.wordHeader__header {
+  height: 99vh;
+  background-color: #f0f0f0;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.5) 0%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+  position: relative;
+  background-image: url(../../assets/img/ProjectPageHeader.jpeg);
+  background-size: 100% 100%;
+}
+
+.wordHeader__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 99vh;
+  padding: 180px;
+}
+
+.wordHeader__shortDescription {
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: 43px;
+  color: white;
+}
+
+.wordHeader__spacing1 {
+  height: 90px;
+}
+
+/* word project page sections */
+
+.wordChallenge__container {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  padding: 180px;
+}
+
+.wordChallenge__title,
+.wordApproach__title,
+.wordInitialBrainstorm__title,
+.wordUserFlow__title,
+.wordPrototype__title,
+.wordLearnings__title,
+.wordNext__title {
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: 45px;
+}
+
+.wordChallenge__spacing1,
+.wordApproach__spacing1,
+.wordInitialBrainstorm__spacing1,
+.wordUserFlow__spacing1,
+.wordPrototype__spacing1,
+.wordLearnings__spacing1,
+.wordNext__spacing1 {
+  height: 30px;
+}
+
+.wordChallenge__description,
+.wordApproach__description,
+.wordInitialBrainstorm__description,
+.wordUserFlow__description,
+.wordPrototype__description,
+.wordLearnings__description,
+.wordNext__description {
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 36px;
+}
+
+.wordApproach__container,
+.wordInitialBrainstorm__container,
+.wordUserFlow__container,
+.wordPrototype__container,
+.wordLearnings__container,
+.wordNext__container {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  padding: 0 180px 180px 180px;
+}
+
+.wordNext__ul {
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+}
+
+.wordFooter__container {
+  padding: 120px;
+  text-align: center;
+  background-image: url(../../assets/img/ProjectPageFooter.png);
+  background-size: 100% 100%;
+}
+
+.wordFooter__title {
+  font-size: 36px;
+  opacity: 0.38;
+  letter-spacing: 0;
+  line-height: 45px;
+  text-decoration: underline;
+}
+
+.wordFooter__subtitle {
+  font-size: 72px;
+  letter-spacing: 0;
+  line-height: 90px;
+}
