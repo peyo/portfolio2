@@ -12,6 +12,16 @@ body {
   flex-direction: column;
 }
 
+/* animated switch */
+
+.route-wrapper {
+  position: relative;
+}
+ 
+.route-wrapper > div {
+  position: absolute;
+}
+
 /* landing page header */
 
 .header__header {
