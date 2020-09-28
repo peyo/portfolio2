@@ -13,7 +13,6 @@ body {
 }
 
 /* landing page header */
-
 .header__header {
   height: 90vh;
   background-color: #f0f0f0;
@@ -42,9 +41,8 @@ body {
 
 .header__helloWorld {
   color: #000000;
-  font-size: 72px;
+  font-size: calc(12px + 6vw);
   letter-spacing: 0;
-  line-height: 86px;
 }
 
 .header__spacing1 {
@@ -52,9 +50,8 @@ body {
 }
 
 .header__shortBio {
-  font-size: 36px;
+  font-size: calc(9px + 2vw);
   letter-spacing: 0;
-  line-height: 43px;
 }
 
 .header__spacing2 {
@@ -62,14 +59,20 @@ body {
 }
 
 /* landing page sections */
-
 .mech__container,
 .cellier__container,
 .word__container {
   display: flex;
   text-align: left;
   align-items: center;
-  padding: 225px 0 225px 120px;
+  padding: 225px 120px 225px 120px;
+}
+
+.mech__logo,
+.cellier__logo,
+.word__logo {
+  width: 454px;
+  height: 454px;
 }
 
 .mech__spacing1,
@@ -81,17 +84,15 @@ body {
 .mech__title,
 .cellier__title,
 .word__title {
-  font-size: 72px;
+  font-size: calc(12px + 6vw);
   letter-spacing: 0;
-  line-height: 90px;
 }
 
 .mech__shortTitle,
 .cellier__shortTitle,
 .word__shortTitle {
-  font-size: 36px;
+  font-size: calc(9px + 2vw);
   letter-spacing: 0;
-  line-height: 45px;
 }
 
 .mech__spacing2,
@@ -103,9 +104,8 @@ body {
 .mech__technologies,
 .cellier__technologies,
 .word__technologies {
-  font-size: 24px;
+  font-size: calc(9px + 1vw);
   letter-spacing: 0;
-  line-height: 36px;
 }
 
 .mech__spacing3,
@@ -120,7 +120,6 @@ body {
 }
 
 /* mech project page header */
-
 .mechHeader__header {
   height: 90vh;
   background-color: #f0f0f0;
@@ -150,9 +149,8 @@ body {
 }
 
 .mechHeader__shortDescription {
-  font-size: 36px;
+  font-size: calc(9px + 2vw);
   letter-spacing: 0;
-  line-height: 43px;
   color: white;
 }
 
@@ -161,7 +159,6 @@ body {
 }
 
 /* mech project page sections */
-
 .mechChallenge__container {
   display: flex;
   text-align: left;
@@ -177,9 +174,8 @@ body {
 .mechPrototype__title,
 .mechLearnings__title,
 .mechNext__title {
-  font-size: 36px;
+  font-size: calc(9px + 2vw);
   letter-spacing: 0;
-  line-height: 45px;
 }
 
 .mechChallenge__spacing1,
@@ -201,9 +197,8 @@ body {
 .mechPrototype__description,
 .mechLearnings__description,
 .mechNext__description {
-  font-size: 24px;
+  font-size: calc(9px + 1vw);
   letter-spacing: 0;
-  line-height: 36px;
 }
 
 .mechApproach__container,
@@ -233,10 +228,9 @@ body {
 }
 
 .mechFooter__title {
-  font-size: 36px;
+  font-size: calc(9px + 2vw);
   opacity: 0.38;
   letter-spacing: 0;
-  line-height: 45px;
   text-decoration: underline;
   color: rgb(88, 88, 88);
 }
@@ -246,13 +240,11 @@ body {
 }
 
 .mechFooter__subtitle {
-  font-size: 72px;
+  font-size: calc(12px + 6vw);
   letter-spacing: 0;
-  line-height: 90px;
 }
 
 /* cellier project page header */
-
 .cellierHeader__header {
   height: 90vh;
   background-color: #f0f0f0;
@@ -282,9 +274,8 @@ body {
 }
 
 .cellierHeader__shortDescription {
-  font-size: 36px;
+  font-size: calc(9px + 2vw);
   letter-spacing: 0;
-  line-height: 43px;
   color: white;
 }
 
@@ -293,7 +284,6 @@ body {
 }
 
 /* cellier project page sections */
-
 .cellierChallenge__container {
   display: flex;
   text-align: left;
@@ -308,9 +298,8 @@ body {
 .cellierPrototype__title,
 .cellierLearnings__title,
 .cellierNext__title {
-  font-size: 36px;
+  font-size: calc(9px + 2vw);
   letter-spacing: 0;
-  line-height: 45px;
 }
 
 .cellierChallenge__spacing1,
@@ -330,9 +319,8 @@ body {
 .cellierPrototype__description,
 .cellierLearnings__description,
 .cellierNext__description {
-  font-size: 24px;
+  font-size: calc(9px + 1vw);
   letter-spacing: 0;
-  line-height: 36px;
 }
 
 .cellierApproach__container,
@@ -361,10 +349,9 @@ body {
 }
 
 .cellierFooter__title {
-  font-size: 36px;
+  font-size: calc(9px + 2vw);
   opacity: 0.38;
   letter-spacing: 0;
-  line-height: 45px;
   text-decoration: underline;
   color:rgb(88, 88, 88);
 }
@@ -374,13 +361,11 @@ body {
 }
 
 .cellierFooter__subtitle {
-  font-size: 72px;
+  font-size: calc(12px + 6vw);
   letter-spacing: 0;
-  line-height: 90px;
 }
 
 /* word project page header */
-
 .wordHeader__header {
   height: 90vh;
   background-color: #f0f0f0;
@@ -410,9 +395,8 @@ body {
 }
 
 .wordHeader__shortDescription {
-  font-size: 36px;
+  font-size: calc(9px + 2vw);
   letter-spacing: 0;
-  line-height: 43px;
   color: white;
 }
 
@@ -421,7 +405,6 @@ body {
 }
 
 /* word project page sections */
-
 .wordChallenge__container {
   display: flex;
   text-align: left;
@@ -436,9 +419,8 @@ body {
 .wordPrototype__title,
 .wordLearnings__title,
 .wordNext__title {
-  font-size: 36px;
+  font-size: calc(9px + 2vw);
   letter-spacing: 0;
-  line-height: 45px;
 }
 
 .wordChallenge__spacing1,
@@ -458,9 +440,8 @@ body {
 .wordPrototype__description,
 .wordLearnings__description,
 .wordNext__description {
-  font-size: 24px;
+  font-size: calc(9px + 1vw);
   letter-spacing: 0;
-  line-height: 36px;
 }
 
 .wordApproach__container,
@@ -489,10 +470,9 @@ body {
 }
 
 .wordFooter__title {
-  font-size: 36px;
+  font-size: calc(9px + 2vw);
   opacity: 0.38;
   letter-spacing: 0;
-  line-height: 45px;
   text-decoration: underline;
   color: rgb(88, 88, 88);
 }
@@ -502,7 +482,125 @@ body {
 }
 
 .wordFooter__subtitle {
-  font-size: 72px;
+  font-size: calc(12px + 6vw);
   letter-spacing: 0;
-  line-height: 90px;
+}
+
+/* purely css preloader */
+.lds-heart {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  transform: rotate(45deg);
+  transform-origin: 40px 40px;
+}
+.lds-heart div {
+  top: 32px;
+  left: 32px;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  background: #000;
+  animation: lds-heart 1.2s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.lds-heart div:after,
+.lds-heart div:before {
+  content: " ";
+  position: absolute;
+  display: block;
+  width: 32px;
+  height: 32px;
+  background: #000;
+}
+.lds-heart div:before {
+  left: -24px;
+  border-radius: 50% 0 0 50%;
+}
+.lds-heart div:after {
+  top: -24px;
+  border-radius: 50% 50% 0 0;
+}
+@keyframes lds-heart {
+  0% {
+    transform: scale(0.95);
+  }
+  5% {
+    transform: scale(1.1);
+  }
+  39% {
+    transform: scale(0.85);
+  }
+  45% {
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(0.95);
+  }
+  100% {
+    transform: scale(0.9);
+  }
+}
+
+/* extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .header__container {
+    padding: 0 33px 0 33px;
+  }
+  
+  .mech__container,
+  .cellier__container,
+  .word__container {
+    flex-direction: column;
+    padding: 60px 0;
+  }
+
+  .mech__logo,
+  .cellier__logo,
+  .word__logo {
+    width: 270px;
+    height: 270px;
+  }
+}
+
+/* small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .header__container {
+    padding: 0 66px 0 66px;
+  }
+  
+  .mech__container,
+  .cellier__container,
+  .word__container {
+    flex-direction: column;
+    padding: 100px 0;
+  }
+  
+  .mech__logo,
+  .cellier__logo,
+  .word__logo {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+/* medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .header__container {
+    padding: 0 99px 0 99px;
+  }
+
+  .mech__container,
+  .cellier__container,
+  .word__container {
+    flex-direction: column;
+    padding: 100px 0;
+  }
+
+  .mech__logo,
+  .cellier__logo,
+  .word__logo {
+    width: 454px;
+    height: 454px;
+  }
 }

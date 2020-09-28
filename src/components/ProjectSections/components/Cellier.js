@@ -19,8 +19,6 @@ export default class Cellier extends Component {
             <img
               alt="cellier logo"
               src={Logo}
-              width="454"
-              height="454"
               className="cellier__logo"
             />{" "}
           </div>

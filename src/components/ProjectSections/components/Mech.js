@@ -19,8 +19,6 @@ export default class Mech extends Component {
             <img
               alt="mech logo"
               src={Logo}
-              width="454"
-              height="454"
               className="mech__logo"
             />{" "}
           </div>

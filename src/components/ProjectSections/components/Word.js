@@ -19,8 +19,6 @@ export default class Word extends Component {
             <img
               alt="word logo"
               src={Logo}
-              width="454"
-              height="454"
               className="word__logo"
             />{" "}
           </div>
@@ -32,7 +30,7 @@ export default class Word extends Component {
             <div className="word__technologies">Javascript</div>
             <div className="word__spacing3"></div>
             <div className="word__button">
-              <LinkContainer to="/project-page/mech">
+              <LinkContainer to="/project-page/word">
                 <Button variant="outline-dark">
                   View Project
                 </Button>
