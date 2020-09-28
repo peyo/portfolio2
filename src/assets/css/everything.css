@@ -25,7 +25,7 @@ body {
 /* landing page header */
 
 .header__header {
-  height: 99vh;
+  height: 90vh;
   background-color: #f0f0f0;
   background: linear-gradient(
     180deg,
@@ -46,7 +46,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 99vh;
+  height: 90vh;
   padding: 0 120px 0 120px;
 }
 
@@ -132,7 +132,7 @@ body {
 /* mech project page header */
 
 .mechHeader__header {
-  height: 99vh;
+  height: 90vh;
   background-color: #f0f0f0;
   background: linear-gradient(
     180deg,
@@ -155,7 +155,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 99vh;
+  height: 90vh;
   padding: 180px;
 }
 
@@ -264,7 +264,7 @@ body {
 /* cellier project page header */
 
 .cellierHeader__header {
-  height: 99vh;
+  height: 90vh;
   background-color: #f0f0f0;
   background: linear-gradient(
     180deg,
@@ -287,7 +287,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 99vh;
+  height: 90vh;
   padding: 180px;
 }
 
@@ -392,7 +392,7 @@ body {
 /* word project page header */
 
 .wordHeader__header {
-  height: 99vh;
+  height: 90vh;
   background-color: #f0f0f0;
   background: linear-gradient(
     180deg,
@@ -415,7 +415,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 99vh;
+  height: 90vh;
   padding: 180px;
 }
 
