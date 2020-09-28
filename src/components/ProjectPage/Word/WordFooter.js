@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
-// bootstrap
-import { LinkContainer } from "react-router-bootstrap";
+// react router
+import { Link } from "react-router-dom";
 
 // css
 import "../../../assets/css/everything.css";
@@ -11,11 +11,11 @@ export default class WordHeader extends Component {
     return (
       <section className="wordFooter__footer">
         <div className="wordFooter__container">
-          <LinkContainer to="/project-page/mech">
+          <Link to="/project-page/mech">
             <div className="wordFooter__title">
                 Next Project
             </div>
-          </LinkContainer>
+          </Link>
           <div className="wordFooter__subtitle">
             Mech
           </div>

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
-// bootstrap
-import { LinkContainer } from "react-router-bootstrap";
+// react router
+import { Link } from "react-router-dom";
 
 // css
 import "../../../assets/css/everything.css";
@@ -11,11 +11,11 @@ export default class CellierHeader extends Component {
     return (
       <section className="cellierFooter__footer">
         <div className="cellierFooter__container">
-          <LinkContainer to="/project-page/word">
+          <Link to="/project-page/word">
           <div className="cellierFooter__title">
             Next Project
           </div>
-          </LinkContainer>
+          </Link>
           <div className="cellierFooter__subtitle">
             Word
           </div>

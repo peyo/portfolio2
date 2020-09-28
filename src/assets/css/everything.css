@@ -238,6 +238,11 @@ body {
   letter-spacing: 0;
   line-height: 45px;
   text-decoration: underline;
+  color: rgb(88, 88, 88);
+}
+
+.mechFooter__title:hover {
+  color: rgb(25, 25, 25);
 }
 
 .mechFooter__subtitle {
@@ -361,6 +366,11 @@ body {
   letter-spacing: 0;
   line-height: 45px;
   text-decoration: underline;
+  color:rgb(88, 88, 88);
+}
+
+.cellierFooter__title:hover {
+  color: rgb(25, 25, 25);
 }
 
 .cellierFooter__subtitle {
@@ -484,6 +494,11 @@ body {
   letter-spacing: 0;
   line-height: 45px;
   text-decoration: underline;
+  color: rgb(88, 88, 88);
+}
+
+.wordFooter__title:hover {
+  color: rgb(25, 25, 25);
 }
 
 .wordFooter__subtitle {
