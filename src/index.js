@@ -12,14 +12,7 @@ import AnimatedCursor from "react-animated-cursor"
 ReactDOM.render(
   <BrowserRouter>
     <ScrollToTop />
-    <AnimatedCursor
-      innerSize={9}
-      outerSize={9}
-      color='193, 11, 111'
-      outerAlpha={0.3}
-      innerScale={0.6}
-      outerScale={5}
-    />
+    <AnimatedCursor />
     <App />
   </BrowserRouter>,
   document.getElementById("root")
