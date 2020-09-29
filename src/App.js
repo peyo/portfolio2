@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Route, Switch } from "react-router-dom";
+import { Route, Switch, Redirect } from "react-router-dom";
 
 // google analytics (only page views)
 import Analytics from 'react-router-ga';
@@ -21,6 +21,8 @@ export default class App extends Component {
           <Route path="/project-page/cellier" component={LoadableCellierPage} />
           <Route path="/project-page/word" component={LoadableWordPage} />
           <Route path="/resume-page/resume" component={LoadableResumePage} />
+          <Route path="/404" component={LoadableNotFoundPage} />
+          <Redirect to="/404" />
           </Switch>
         </Analytics>
       </div>
@@ -70,6 +72,12 @@ const LoadableWordPage = Loadable({
 
 const LoadableResumePage = Loadable({
   loader: () => import("./routes/ResumePage/ResumePage"),
+  loading: Loading,
+  delay: 300,
+});
+
+const LoadableNotFoundPage = Loadable({
+  loader: () => import("./routes/NotFoundPage/NotFoundPage"),
   loading: Loading,
   delay: 300,
 });

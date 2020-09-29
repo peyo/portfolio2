@@ -26,7 +26,7 @@ body {
   background-size: 100% 100%;
 }
 
-.header__logo {
+.header__logo, .notFoundHeader__logo {
   width: 30px;
   height: 30px;
 }
@@ -567,7 +567,8 @@ word__logo */ {
 
   .mechHeader__container,
   .cellierHeader__container,
-  .wordHeader__container {
+  .wordHeader__container,
+  .notFoundBody__container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -652,7 +653,8 @@ word__logo */ {
 
   .mechHeader__container,
   .cellierHeader__container,
-  .wordHeader__container {
+  .wordHeader__container,
+  .notFoundBody__container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -737,7 +739,8 @@ word__logo */ {
 
   .mechHeader__container,
   .cellierHeader__container,
-  .wordHeader__container {
+  .wordHeader__container,
+  .notFoundBody__container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -797,4 +800,31 @@ word__logo */ {
   .wordNext__spacing1 {
     height: 33px;
   }
+}
+
+/* not found page */
+.notFoundBody__container {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  padding: 60px 120px;
+}
+
+.notFoundBody__oops {
+  font-size: calc(24px + 1vw);
+  letter-spacing: 0;
+}
+
+.notFoundBody__bold {
+  font-weight: bolder;
+  background-color: lightgrey;
+}
+
+.notFoundBody__spacing1 {
+  height: 66px;
+}
+
+.notFoundBody__youWanderer {
+  font-size: calc(9px + 1vw);
+  letter-spacing: 0;
 }
