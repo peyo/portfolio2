@@ -11,7 +11,9 @@ export default class MechUserFlow extends Component {
           </div>
           <div className="mechUserFlow__spacing1"></div>
           <div className="mechUserFlow__description">
-            lorem ipsum
+            The initial user flow was sketched using diagrams.net. 
+            <br /><br />
+            <a href="https://drive.google.com/file/d/1wd61rWYoOmzd0s1s8Wqs9pCD2kOszChx/view">Diagram</a>
           </div>
         </div>
       </section>

@@ -12,9 +12,10 @@ export default class MechNext extends Component {
           <div className="mechNext__spacing1"></div>
           <div className="mechNext__description">
             <ul className="mechNext__ul">
-              <li>Uno</li>
-              <li>Dos</li>
-              <li>Tres</li>
+              <li>Add more car makes.</li>
+              <li>Add different DTC types. C, U, B type codes.</li>
+              <li>Add solutions to DTCs.</li>
+              <li>Add more car models.</li>
             </ul>
           </div>
         </div>
