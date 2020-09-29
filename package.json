@@ -17,6 +17,7 @@
     "react-pdf": "^5.0.0",
     "react-router-bootstrap": "^0.25.0",
     "react-router-dom": "^5.2.0",
+    "react-router-ga": "^1.2.3",
     "react-scripts": "3.4.3",
     "vanilla-lazyload": "^17.1.2"
   },

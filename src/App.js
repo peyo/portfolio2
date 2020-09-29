@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import { Route, Switch } from "react-router-dom";
 
+// google analytics (only page views)
+import Analytics from 'react-router-ga';
+
 // loading components
 import Loadable from "react-loadable";
 
@@ -11,13 +14,15 @@ export default class App extends Component {
   render() {
     return (
       <div className="app">
+        <Analytics id="UA-179253130-1">
         <Switch>
           <Route exact path="/" component={LoadableLandingPage} />
           <Route path="/project-page/mech" component={LoadableMechPage} />
           <Route path="/project-page/cellier" component={LoadableCellierPage} />
           <Route path="/project-page/word" component={LoadableWordPage} />
           <Route path="/resume-page/resume" component={LoadableResumePage} />
-        </Switch>
+          </Switch>
+        </Analytics>
       </div>
     );
   }

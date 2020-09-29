@@ -657,13 +657,13 @@ word__logo */ {
     flex-direction: column;
     justify-content: center;
     height: 90vh;
-    padding: 99px 99px 210px 99px;
+    padding: 90px 90px 210px 90px;
   }
 
   .mechChallenge__container,
   .cellierChallenge__container,
   .wordChallenge__container {
-    padding: 99px;
+    padding: 90px;
   }
 
   .mechApproach__container,
@@ -685,7 +685,7 @@ word__logo */ {
   .wordPrototype__container,
   .wordLearnings__container,
   .wordNext__container{
-    padding: 0 99px 99px 99px;
+    padding: 0 90px 90px 90px;
   }
 
   .mechChallenge__spacing1,
@@ -717,7 +717,7 @@ word__logo */ {
 /* medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
   .header__container {
-    padding: 0 99px 0 99px;
+    padding: 0 90px 0 90px;
   }
 
   .mech__container,
