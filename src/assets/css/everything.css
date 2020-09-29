@@ -455,7 +455,7 @@ word__logo */ {
   display: flex;
   text-align: left;
   flex-direction: column;
-  padding: 0 180px px 180px;
+  padding: 0 180px 90px 180px;
 }
 
 .wordNext__ul {
