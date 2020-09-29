@@ -7,6 +7,9 @@ import { LinkContainer } from "react-router-bootstrap";
 // logo
 import Logo from "../../../assets/img/ProjectThumbnail/Cellier.gif"
 
+// lazy image
+import LazyImage from "../../../misc/LazyImage";
+
 // css
 import "../../../assets/css/everything.css";
 
@@ -16,7 +19,7 @@ export default class Cellier extends Component {
       <section className="cellier">
         <div className="cellier__container">
           <div className="cellier__image">
-            <img
+            <LazyImage
               alt="cellier logo"
               src={Logo}
               className="cellier__logo"
@@ -28,11 +31,15 @@ export default class Cellier extends Component {
             <div className="cellier__shortTitle">
               Full Stack Development
             </div>
-            <div className="cellier__spacing2"></div>
+            <div className="cellier__spacing"></div>
+            <div className="cellier__oneLiner">
+              Mapping all essential and fragrance oils of the world and helping people find and buy them. 
+            </div>
+            <div className="cellier__spacing"></div>
             <div className="cellier__technologies">
               Javascript, React, Express, Knex, Node.js, Postgres, Python
             </div>
-            <div className="cellier__spacing3"></div>
+            <div className="cellier__spacing"></div>
             <div className="mech__button">
               <LinkContainer to="/project-page/cellier">
                 <Button variant="outline-dark">

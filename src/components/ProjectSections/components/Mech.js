@@ -28,11 +28,15 @@ export default class Mech extends Component {
             <div className="mech__shortTitle">
               Full Stack Development
             </div>
-            <div className="mech__spacing2"></div>
+            <div className="mech__spacing"></div>
+            <div className="mech__oneLiner">
+              Organizing all car trouble codes and making it universally accessible, human, and useful.
+            </div>
+            <div className="mech__spacing"></div>
             <div className="mech__technologies">
               Javascript, React, Express, Knex, Node.js, Postgres, Python
             </div>
-            <div className="mech__spacing3"></div>
+            <div className="mech__spacing"></div>
             <div className="mech__button">
               <LinkContainer to="/project-page/mech">
                 <Button variant="outline-dark">

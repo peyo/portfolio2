@@ -69,8 +69,9 @@ body {
 }
 
 .mech__logo,
-.cellier__logo,
-.word__logo {
+.lazy
+/* cellier__logo,
+word__logo */ {
   width: 454px;
   height: 454px;
 }
@@ -95,10 +96,17 @@ body {
   letter-spacing: 0;
 }
 
-.mech__spacing2,
-.cellier__spacing2,
-.word__spacing2 {
+.mech__spacing,
+.cellier__spacing,
+.word__spacing {
   height: 30px;
+}
+
+.mech__oneLiner,
+.cellier__oneLiner,
+.word__oneLiner {
+  font-size: calc(9px + 1vw);
+  letter-spacing: 0;
 }
 
 .mech__technologies,
@@ -106,12 +114,6 @@ body {
 .word__technologies {
   font-size: calc(9px + 1vw);
   letter-spacing: 0;
-}
-
-.mech__spacing3,
-.cellier__spacing3,
-.word__spacing3 {
-  height: 30px;
 }
 
 .line__line {
@@ -145,7 +147,7 @@ body {
   flex-direction: column;
   justify-content: center;
   height: 90vh;
-  padding: 180px;
+  padding: 180px 180px 330px 180px;
 }
 
 .mechHeader__shortDescription {
@@ -270,7 +272,7 @@ body {
   flex-direction: column;
   justify-content: center;
   height: 90vh;
-  padding: 180px;
+  padding: 180px 180px 330px 180px;
 }
 
 .cellierHeader__shortDescription {
@@ -391,7 +393,7 @@ body {
   flex-direction: column;
   justify-content: center;
   height: 90vh;
-  padding: 180px;
+  padding: 180px 180px 330px 180px;
 }
 
 .wordHeader__shortDescription {
@@ -556,10 +558,74 @@ body {
   }
 
   .mech__logo,
-  .cellier__logo,
-  .word__logo {
+  .lazy
+  /* .cellier__logo,
+  .word__logo */ {
     width: 270px;
     height: 270px;
+  }
+
+  .mechHeader__container,
+  .cellierHeader__container,
+  .wordHeader__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90vh;
+    padding: 30px 30px 90px 30px;
+  }
+
+  .mechChallenge__container,
+  .cellierChallenge__container,
+  .wordChallenge__container {
+    padding: 30px;
+  }
+
+  .mechApproach__container,
+  .mechInitialBrainstorm__container,
+  .mechUserFlow__container,
+  .mechAlphaTesting__container,
+  .mechPrototype__container,
+  .mechLearnings__container,
+  .mechNext__container,
+  .cellierApproach__container,
+  .cellierInitialBrainstorm__container,
+  .cellierUserFlow__container,
+  .cellierPrototype__container,
+  .cellierLearnings__container,
+  .cellierNext__container,
+  .wordApproach__container,
+  .wordInitialBrainstorm__container,
+  .wordUserFlow__container,
+  .wordPrototype__container,
+  .wordLearnings__container,
+  .wordNext__container{
+    padding: 0 30px 30px 30px;
+  }
+
+  .mechChallenge__spacing1,
+  .mechApproach__spacing1,
+  .mechInitialBrainstorm__spacing1,
+  .mechUserFlow__spacing1,
+  .mechAlphaTesting__spacing1,
+  .mechPrototype__spacing1,
+  .mechLearnings__spacing1,
+  .mechNext__spacing1,
+  .cellierChallenge__spacing1,
+  .cellierApproach__spacing1,
+  .cellierInitialBrainstorm__spacing1,
+  .cellierUserFlow__spacing1,
+  .cellierPrototype__spacing1,
+  .cellierLearnings__spacing1,
+  .cellierNext__spacing1,
+  .wordChallenge__spacing1,
+  .wordApproach__spacing1,
+  .wordInitialBrainstorm__spacing1,
+  .wordUserFlow__spacing1,
+  .wordPrototype__spacing1,
+  .wordLearnings__spacing1,
+  .wordNext__spacing1 {
+    height: 9px;
   }
 }
 
@@ -577,10 +643,74 @@ body {
   }
   
   .mech__logo,
-  .cellier__logo,
-  .word__logo {
+  .lazy
+  /* .cellier__logo,
+  .word__logo */ {
     width: 400px;
     height: 400px;
+  }
+
+  .mechHeader__container,
+  .cellierHeader__container,
+  .wordHeader__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90vh;
+    padding: 99px 99px 210px 99px;
+  }
+
+  .mechChallenge__container,
+  .cellierChallenge__container,
+  .wordChallenge__container {
+    padding: 99px;
+  }
+
+  .mechApproach__container,
+  .mechInitialBrainstorm__container,
+  .mechUserFlow__container,
+  .mechAlphaTesting__container,
+  .mechPrototype__container,
+  .mechLearnings__container,
+  .mechNext__container,
+  .cellierApproach__container,
+  .cellierInitialBrainstorm__container,
+  .cellierUserFlow__container,
+  .cellierPrototype__container,
+  .cellierLearnings__container,
+  .cellierNext__container,
+  .wordApproach__container,
+  .wordInitialBrainstorm__container,
+  .wordUserFlow__container,
+  .wordPrototype__container,
+  .wordLearnings__container,
+  .wordNext__container{
+    padding: 0 99px 99px 99px;
+  }
+
+  .mechChallenge__spacing1,
+  .mechApproach__spacing1,
+  .mechInitialBrainstorm__spacing1,
+  .mechUserFlow__spacing1,
+  .mechAlphaTesting__spacing1,
+  .mechPrototype__spacing1,
+  .mechLearnings__spacing1,
+  .mechNext__spacing1,
+  .cellierChallenge__spacing1,
+  .cellierApproach__spacing1,
+  .cellierInitialBrainstorm__spacing1,
+  .cellierUserFlow__spacing1,
+  .cellierPrototype__spacing1,
+  .cellierLearnings__spacing1,
+  .cellierNext__spacing1,
+  .wordChallenge__spacing1,
+  .wordApproach__spacing1,
+  .wordInitialBrainstorm__spacing1,
+  .wordUserFlow__spacing1,
+  .wordPrototype__spacing1,
+  .wordLearnings__spacing1,
+  .wordNext__spacing1 {
+    height: 21px;
   }
 }
 
@@ -598,9 +728,73 @@ body {
   }
 
   .mech__logo,
-  .cellier__logo,
-  .word__logo {
+  .lazy
+  /* .cellier__logo,
+  .word__logo */ {
     width: 454px;
     height: 454px;
+  }
+
+  .mechHeader__container,
+  .cellierHeader__container,
+  .wordHeader__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90vh;
+    padding: 180px 180px 240px 180px;
+  }
+
+  .mechChallenge__container,
+  .cellierChallenge__container,
+  .wordChallenge__container {
+    padding: 180px;
+  }
+
+  .mechApproach__container,
+  .mechInitialBrainstorm__container,
+  .mechUserFlow__container,
+  .mechAlphaTesting__container,
+  .mechPrototype__container,
+  .mechLearnings__container,
+  .mechNext__container,
+  .cellierApproach__container,
+  .cellierInitialBrainstorm__container,
+  .cellierUserFlow__container,
+  .cellierPrototype__container,
+  .cellierLearnings__container,
+  .cellierNext__container,
+  .wordApproach__container,
+  .wordInitialBrainstorm__container,
+  .wordUserFlow__container,
+  .wordPrototype__container,
+  .wordLearnings__container,
+  .wordNext__container{
+    padding: 0 180px 180px 180px;
+  }
+
+  .mechChallenge__spacing1,
+  .mechApproach__spacing1,
+  .mechInitialBrainstorm__spacing1,
+  .mechUserFlow__spacing1,
+  .mechAlphaTesting__spacing1,
+  .mechPrototype__spacing1,
+  .mechLearnings__spacing1,
+  .mechNext__spacing1,
+  .cellierChallenge__spacing1,
+  .cellierApproach__spacing1,
+  .cellierInitialBrainstorm__spacing1,
+  .cellierUserFlow__spacing1,
+  .cellierPrototype__spacing1,
+  .cellierLearnings__spacing1,
+  .cellierNext__spacing1,
+  .wordChallenge__spacing1,
+  .wordApproach__spacing1,
+  .wordInitialBrainstorm__spacing1,
+  .wordUserFlow__spacing1,
+  .wordPrototype__spacing1,
+  .wordLearnings__spacing1,
+  .wordNext__spacing1 {
+    height: 33px;
   }
 }

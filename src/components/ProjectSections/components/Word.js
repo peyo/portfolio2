@@ -7,6 +7,9 @@ import { LinkContainer } from "react-router-bootstrap";
 // logo
 import Logo from "../../../assets/img/ProjectThumbnail/Word.png"
 
+// lazy image
+import LazyImage from "../../../misc/LazyImage";
+
 // css
 import "../../../assets/css/everything.css";
 
@@ -16,7 +19,7 @@ export default class Word extends Component {
       <section className="word">
         <div className="word__container">
           <div className="word__image">
-            <img
+            <LazyImage
               alt="word logo"
               src={Logo}
               className="word__logo"
@@ -26,9 +29,13 @@ export default class Word extends Component {
           <div className="word__text">
             <div className="word__title">Word</div>
             <div className="word__shortTitle">Javascript and APIs</div>
-            <div className="word__spacing2"></div>
+            <div className="word__spacing"></div>
+            <div className="word__oneLiner">
+              Helping people understand the meaning and feeling of words so they can better perceive and communicate with the world around them.
+            </div>
+            <div className="word__spacing"></div>
             <div className="word__technologies">Javascript</div>
-            <div className="word__spacing3"></div>
+            <div className="word__spacing"></div>
             <div className="word__button">
               <LinkContainer to="/project-page/word">
                 <Button variant="outline-dark">

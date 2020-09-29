@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 // bootstrap
-import Navbar from "react-bootstrap/Navbar"
+import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 
 // logo
@@ -16,16 +16,33 @@ export default class Header extends Component {
       <section className="header__header">
         <Navbar className="justify-content-between">
           <Navbar.Brand>
-            <img
-              alt="peyo's logo"
-              src={Logo}
-              className="header__logo"
-            />{" "}
+            <img alt="peyo's logo" src={Logo} className="header__logo" />{" "}
           </Navbar.Brand>
           <Nav className="mr-sm-2">
-            <Nav.Link href="https://www.linkedin.com/in/peteryyoon/" target="_blank">linkedin</Nav.Link>
-            <Nav.Link href="https://github.com/peyo" target="_blank">github</Nav.Link>
-            <Nav.Link href="/resume-page/resume" target="_blank">resume</Nav.Link>
+            <Nav.Link
+              href="https://www.linkedin.com/in/peteryyoon/"
+              target="_blank"
+            >
+              <div className="header__navLink">
+                linkedin
+              </div>
+            </Nav.Link>
+            <Nav.Link
+              href="https://github.com/peyo"
+              target="_blank"
+            >
+              <div className="header__navLink">
+                github
+              </div>
+            </Nav.Link>
+            <Nav.Link
+              href="/resume-page/resume"
+              target="_blank"
+            >
+              <div className="header__navLink">
+                resume
+              </div>
+            </Nav.Link>
           </Nav>
         </Navbar>
         <div className="header__container">
