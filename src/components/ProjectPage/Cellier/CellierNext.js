@@ -12,9 +12,9 @@ export default class CellierNext extends Component {
           <div className="cellierNext__spacing1"></div>
           <div className="cellierNext__description">
             <ul className="cellierNext__ul">
-              <li>Uno</li>
-              <li>Dos</li>
-              <li>Tres</li>
+              <li>Finish unit testing.</li>
+              <li>Write fetch requests in the front end.</li>
+              <li>Write services in the front end.</li>
             </ul>
           </div>
         </div>

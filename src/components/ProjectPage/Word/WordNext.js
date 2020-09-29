@@ -12,9 +12,8 @@ export default class WordNext extends Component {
           <div className="wordNext__spacing1"></div>
           <div className="wordNext__description">
             <ul className="wordNext__ul">
-              <li>Uno</li>
-              <li>Dos</li>
-              <li>Tres</li>
+              <li>Provide a search for word feature.</li>
+              <li>If the search word does not exist, provide a recommendation.</li>
             </ul>
           </div>
         </div>

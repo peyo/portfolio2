@@ -11,7 +11,7 @@ export default class CellierApproach extends Component {
           </div>
           <div className="cellierApproach__spacing1"></div>
           <div className="cellierApproach__description">
-            lorem ipsum
+            Map all the smells in the world. Tie the smells to distributors to create a comprehensive marketplace of common to obscure smells. Provide recommendations on which smells blend well with others to support scent blending. Base the scent recommendation engine on the scent wheel.
           </div>
         </div>
       </section>

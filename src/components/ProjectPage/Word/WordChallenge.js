@@ -11,7 +11,7 @@ export default class WordChallenge extends Component {
           </div>
           <div className="wordChallenge__spacing1"></div>
           <div className="wordChallenge__description">
-            lorem ipsum
+            Words have specific definitions but everyone has their own perception of the word based on their experiences. A person's experience can stem from books, poems, music, videos, and news articles. A word's sentiment for one person could very different from another person. The wide word sentiment spectrum can cause potential miscommunications.
           </div>
         </div>
       </section>
