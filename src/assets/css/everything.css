@@ -604,6 +604,12 @@ word__logo */ {
     padding: 0 30px 30px 30px;
   }
 
+  .mech__spacing1,
+  .cellier__spacing1,
+  .word__spacing1 {
+    height: 30px;
+  }
+
   .mechChallenge__spacing1,
   .mechApproach__spacing1,
   .mechInitialBrainstorm__spacing1,
@@ -690,6 +696,12 @@ word__logo */ {
     padding: 0 90px 90px 90px;
   }
 
+  .mech__spacing1,
+  .cellier__spacing1,
+  .word__spacing1 {
+    height: 30px;
+  }
+
   .mechChallenge__spacing1,
   .mechApproach__spacing1,
   .mechInitialBrainstorm__spacing1,
@@ -774,6 +786,12 @@ word__logo */ {
   .wordLearnings__container,
   .wordNext__container{
     padding: 0 180px 90px 180px;
+  }
+
+  .mech__spacing1,
+  .cellier__spacing1,
+  .word__spacing1 {
+    height: 33px;
   }
 
   .mechChallenge__spacing1,
