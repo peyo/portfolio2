@@ -43,6 +43,7 @@ export default class Mech extends Component {
                   View Project
                 </Button>
               </LinkContainer>
+            <div className="mech__spacing"></div>
             </div>
           </div>
         </div>

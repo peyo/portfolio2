@@ -42,6 +42,7 @@ export default class Word extends Component {
                   View Project
                 </Button>
               </LinkContainer>
+            <div className="word__spacing"></div>
             </div>
           </div>
         </div>
