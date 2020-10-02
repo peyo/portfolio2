@@ -33,12 +33,12 @@ export default class App extends Component {
 // loadable function
 function Loading(props) {
   if (props.error) {
-    return <div>Oh no, something went wrong! Go back and try again.</div>;
+    return <div className="loadable__errorMsg">Oh no, something went wrong! Go back and try again.</div>;
   } else if (props.timedOut) {
-    return <div>Taking a long time... Go back and try again.</div>;
+    return <div className="loadable__timeoutMsg">Taking a long time... Go back and try again.</div>;
   } else if (props.pastDelay) {
     return (
-      <div class="lds-heart"></div>
+      <div className="loadable__heart"></div>
     );
   } else {
     return null;
