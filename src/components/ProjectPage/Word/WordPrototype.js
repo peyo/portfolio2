@@ -11,7 +11,10 @@ export default class WordPrototype extends Component {
           </div>
           <div className="wordPrototype__spacing1"></div>
           <div className="wordPrototype__description">
-            <a href="https://github.com/peyo/word-webapp">Repo</a>
+            <a href="https://github.com/peyo/word-webapp"
+              target="_blank"
+              rel="noopener noreferrer"
+            >Repo</a>
           </div>
         </div>
       </section>

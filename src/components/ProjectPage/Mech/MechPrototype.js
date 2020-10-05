@@ -11,11 +11,20 @@ export default class MechPrototype extends Component {
           </div>
           <div className="mechPrototype__spacing1"></div>
           <div className="mechPrototype__description">
-            <a href="https://github.com/peyo/project-mech">Front End Repo</a>
+            <a href="https://github.com/peyo/project-mech"
+              target="_blank"
+              rel="noopener noreferrer"
+            >Front End Repo</a>
             <br />
-            <a href="https://github.com/peyo/project-mech-api">Back End Repo</a>
+            <a href="https://github.com/peyo/project-mech-api"
+              target="_blank"
+              rel="noopener noreferrer"
+            >Back End Repo</a>
             <br />
-            <a href="https://github.com/peyo/dtc-and-vin-data">Database</a>
+            <a href="https://github.com/peyo/dtc-and-vin-data"
+              target="_blank"
+              rel="noopener noreferrer"
+            >Database</a>
           </div>
         </div>
       </section>

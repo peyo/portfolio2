@@ -11,9 +11,15 @@ export default class CellierUserFlow extends Component {
           </div>
           <div className="cellierUserFlow__spacing1"></div>
           <div className="cellierUserFlow__description">
-            <a href="https://docs.google.com/spreadsheets/d/1Prp5_Vqwj3Mq-tDMXY1vQbNY91Wn166Oml-4lCk_Aok/edit?usp=sharing">User Stories</a>
+            <a href="https://docs.google.com/spreadsheets/d/1Prp5_Vqwj3Mq-tDMXY1vQbNY91Wn166Oml-4lCk_Aok/edit?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >User Stories</a>
             <br />
-            <a href="https://docs.google.com/spreadsheets/d/1Gpt9Ec49X17cLvJ85KVWArYBeMeDkp2c3zobHpDaw4Y/edit?usp=sharing">User Flow</a>
+            <a href="https://docs.google.com/spreadsheets/d/1Gpt9Ec49X17cLvJ85KVWArYBeMeDkp2c3zobHpDaw4Y/edit?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >User Flow</a>
           </div>
         </div>
       </section>

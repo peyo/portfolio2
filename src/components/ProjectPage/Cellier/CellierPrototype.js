@@ -11,11 +11,20 @@ export default class CellierPrototype extends Component {
           </div>
           <div className="cellierPrototype__spacing1"></div>
           <div className="cellierPrototype__description">
-            <a href="https://github.com/peyo/project-cellier">Front End Repo</a>
+            <a href="https://github.com/peyo/project-cellier"
+              target="_blank"
+              rel="noopener noreferrer"
+            >Front End Repo</a>
             <br />
-            <a href="https://github.com/peyo/project-cellier-api">Back End Repo</a>
+            <a href="https://github.com/peyo/project-cellier-api"
+              target="_blank"
+              rel="noopener noreferrer"
+            >Back End Repo</a>
             <br />
-            <a href="https://docs.google.com/spreadsheets/d/1g4HVTzNwAJECc522jGIH4EnCMA98Tr2kGJfueCO4paQ/edit?usp=sharing">Database and Tables Structure</a>
+            <a href="https://docs.google.com/spreadsheets/d/1g4HVTzNwAJECc522jGIH4EnCMA98Tr2kGJfueCO4paQ/edit?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >Database and Tables Structure</a>
           </div>
         </div>
       </section>

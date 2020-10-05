@@ -22,6 +22,7 @@ export default class Header extends Component {
             <Nav.Link
               href="https://www.linkedin.com/in/peteryyoon/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <div className="header__navLink">
                 linkedin
@@ -30,6 +31,7 @@ export default class Header extends Component {
             <Nav.Link
               href="https://github.com/peyo"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <div className="header__navLink">
                 github
@@ -38,6 +40,7 @@ export default class Header extends Component {
             <Nav.Link
               href="/resume-page/resume"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <div className="header__navLink">
                 resume
@@ -49,12 +52,7 @@ export default class Header extends Component {
           <div className="header__helloWorld">Hello World. I'm Peter.</div>
           <div className="header__spacing1"></div>
           <div className="header__shortBio">
-            I believe great outcomes are achieved when curiosity and openness
-            are paired with self-discipline and diligence. These are traits that
-            afford us the ability to tackle new challenges. Coding is an area
-            for me to apply curiosity and self-discipline and learn new skills
-            to create simple to complex solutions. Check out my explorations
-            below.
+            I believe curiosity and openness paired with self-discipline and diligence lead to great outcomes. These traits afford us the ability to tackle new challenges. Check out my explorations applying my curiosity and self-discipline to create simple to complex solutions.
           </div>
           <div className="header__spacing2"></div>
         </div>
