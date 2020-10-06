@@ -31,7 +31,7 @@ export default class Word extends Component {
             <div className="word__shortTitle">Javascript and APIs</div>
             <div className="word__spacing"></div>
             <div className="word__oneLiner">
-              Helping people understand the meaning and feeling of words so they can better perceive and communicate with the world around them.
+              Helping people understand the meaning and feeling of words to better perceive and communicate with the world around them.
             </div>
             <div className="word__spacing"></div>
             <div className="word__technologies">Javascript</div>

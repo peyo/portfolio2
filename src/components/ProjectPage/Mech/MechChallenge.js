@@ -11,7 +11,7 @@ export default class MechChallenge extends Component {
           </div>
           <div className="mechChallenge__spacing1"></div>
           <div className="mechChallenge__description">
-            There is no place that offers comprehensive solutions to car issues that are identified by diagnostic trouble codes, also known as DTC. A car owner or mechanic can pull a car's DTC by plugging a scanner into the OBD port. All cars have this port, even new EVs.
+            No place offers comprehensive solutions to car issues identified by diagnostic trouble codes, also known as DTC. A car owner or mechanic can pull a car's DTC by plugging a scanner into the OBD port. All cars have this port, even new EVs.
           </div>
         </div>
       </section>
