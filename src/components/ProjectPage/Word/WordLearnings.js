@@ -11,7 +11,7 @@ export default class WordLearnings extends Component {
           </div>
           <div className="wordLearnings__spacing1"></div>
           <div className="wordLearnings__description">
-            Initially the content sections wasn't very clear. Different typography provided a clear content hierarchy. Also, the poem and lyrics were too long. A show more or show less button shorten the length of the content.
+            Initially the content sections weren't very clear. Different typography provided a clear content hierarchy. Also, the poem and lyrics were too long. A show more or show less button shorten the length of the content.
           </div>
         </div>
       </section>

@@ -219,8 +219,8 @@ word__logo */ {
 .mechNext__ul {
   list-style-position: inside;
   margin: 0;
-  padding: 0 0 0 20px;
-  text-indent: -18px;
+  padding: 0 0 0 14px;
+  text-indent: -12.5px;
 }
 
 .mechFooter__container {
@@ -341,8 +341,8 @@ word__logo */ {
 .cellierNext__ul {
   list-style-position: inside;
   margin: 0;
-  padding: 0 0 0 20px;
-  text-indent: -18px;
+  padding: 0 0 0 14px;
+  text-indent: -12.5px;
 }
 
 .cellierFooter__container {
