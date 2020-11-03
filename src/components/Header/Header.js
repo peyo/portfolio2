@@ -38,6 +38,15 @@ export default class Header extends Component {
               </div>
             </Nav.Link>
             <Nav.Link
+              href="https://leetcode.com/problems/maximal-network-rank/discuss/903980/(Javascript)-4-steps-including-base-case.-(96-ms-faster-than-98.79-43.5-MB-less-than-5.45)"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="header__navLink">
+                leetcode
+              </div>
+            </Nav.Link>
+            <Nav.Link
               href="/resume-page/resume"
               target="_blank"
               rel="noopener noreferrer"
