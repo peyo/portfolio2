@@ -103,6 +103,7 @@ body {
     */
 .bm-menu-wrap {
   position: fixed;
+  width: 30%;
   height: 100%;
 }
  

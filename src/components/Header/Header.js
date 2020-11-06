@@ -14,10 +14,6 @@ import Logo from "../../assets/img/Logo.svg";
 import "../../assets/css/everything.css";
 
 export default class Header extends Component {
-  showSettings(event) {
-    event.preventDefault();
-  }
-
   render() {
     return (
       <section className="header__header">
