@@ -21,12 +21,13 @@ export default class Header extends Component {
   render() {
     return (
       <section className="header__header">
-        <Navbar className="justify-content-between">
+        <div className="header__navbar-container">
+        <Navbar className="header__navbar">
           <Navbar.Brand>
             <img alt="peyo's logo" src={Logo} className="header__logo" />{" "}
           </Navbar.Brand>
-          <Nav className="mr-sm-2">
-            <Menu right>
+          <Menu right>
+            <Nav className="mr-sm-2">
               <Nav.Link
                 href="https://www.linkedin.com/in/peteryyoon/"
                 target="_blank"
@@ -63,9 +64,10 @@ export default class Header extends Component {
                   resume
                 </div>
               </Nav.Link>
-            </Menu>
-          </Nav>
-        </Navbar>
+            </Nav>
+          </Menu>
+          </Navbar>
+        </div>
         <div className="header__container">
           <div className="header__helloWorld">Hello World. I'm Peter.</div>
           <div className="header__spacing1"></div>
