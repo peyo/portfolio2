@@ -103,7 +103,6 @@ body {
     */
 .bm-menu-wrap {
   position: fixed;
-  width: 30%;
   height: 100%;
 }
  
@@ -118,6 +117,7 @@ body {
 .bm-item-list {
   color: #b8b7ad;
   padding: 0.8em;
+  text-align: right;
 }
  
     /* individual item */
@@ -127,7 +127,7 @@ body {
  
     /* styling of overlay */
 .bm-overlay {
-  background: rgba(0, 0, 0, 0.3);
+  background: #ffffff;
 }
 
     /* space above the sidebar menu */
