@@ -26,10 +26,9 @@ body {
   background-size: 100% 100%;
 }
 
-.header__navbar-container {
+.header__navbar {
   position: fixed;
   width: 100vw;
-  background-color: #f0f0f0;
 }
 
 .header__logo, .notFoundHeader__logo {
@@ -198,6 +197,12 @@ word__logo */ {
   background-color: #979797;
 }
 
+/* mech project page navbar */
+.mechHeader__navbar {
+  position: fixed;
+  width: 100vw;
+}
+
 /* mech project page header */
 .mechHeader__header {
   height: 90vh;
@@ -213,7 +218,6 @@ word__logo */ {
 }
 
 .mechHeader__logo {
-  position: fixed;
   width: 30px;
   height: 30px;
 }
@@ -323,6 +327,12 @@ word__logo */ {
   letter-spacing: 0;
 }
 
+/* cellier project page navbar */
+.cellierHeader__navbar {
+  position: fixed;
+  width: 100vw;
+}
+
 /* cellier project page header */
 .cellierHeader__header {
   height: 90vh;
@@ -338,7 +348,6 @@ word__logo */ {
 }
 
 .cellierHeader__logo {
-  position: fixed;
   width: 30px;
   height: 30px;
 }
@@ -444,6 +453,12 @@ word__logo */ {
   letter-spacing: 0;
 }
 
+/* word project page navbar */
+.wordHeader__navbar {
+  position: fixed;
+  width: 100vw;
+}
+
 /* word project page header */
 .wordHeader__header {
   height: 90vh;
@@ -459,7 +474,6 @@ word__logo */ {
 }
 
 .wordHeader__logo {
-  position: fixed;
   width: 30px;
   height: 30px;
 }
