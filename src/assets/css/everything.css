@@ -213,10 +213,9 @@ word__logo */ {
 }
 
 .mechHeader__logo {
+  position: fixed;
   width: 30px;
   height: 30px;
-  -webkit-filter: invert(1);
-  filter: invert(1);
 }
 
 .mechHeader__container {
@@ -339,10 +338,9 @@ word__logo */ {
 }
 
 .cellierHeader__logo {
+  position: fixed;
   width: 30px;
   height: 30px;
-  -webkit-filter: invert(1);
-  filter: invert(1);
 }
 
 .cellierHeader__container {
@@ -461,10 +459,9 @@ word__logo */ {
 }
 
 .wordHeader__logo {
+  position: fixed;
   width: 30px;
   height: 30px;
-  -webkit-filter: invert(1);
-  filter: invert(1);
 }
 
 .wordHeader__container {
