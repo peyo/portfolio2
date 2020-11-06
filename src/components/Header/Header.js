@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 
+// react hamburger menu
+import { slide as Menu } from "react-burger-menu";
+
 // bootstrap
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
@@ -11,6 +14,10 @@ import Logo from "../../assets/img/Logo.svg";
 import "../../assets/css/everything.css";
 
 export default class Header extends Component {
+  showSettings(event) {
+    event.preventDefault();
+  }
+
   render() {
     return (
       <section className="header__header">
@@ -19,42 +26,44 @@ export default class Header extends Component {
             <img alt="peyo's logo" src={Logo} className="header__logo" />{" "}
           </Navbar.Brand>
           <Nav className="mr-sm-2">
-            <Nav.Link
-              href="https://www.linkedin.com/in/peteryyoon/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div className="header__navLink">
-                linkedin
-              </div>
-            </Nav.Link>
-            <Nav.Link
-              href="https://github.com/peyo"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div className="header__navLink">
-                github
-              </div>
-            </Nav.Link>
-            <Nav.Link
-              href="https://leetcode.com/problems/maximal-network-rank/discuss/903980/(Javascript)-4-steps-including-base-case.-(96-ms-faster-than-98.79-43.5-MB-less-than-5.45)"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div className="header__navLink">
-                leetcode
-              </div>
-            </Nav.Link>
-            <Nav.Link
-              href="/resume-page/resume"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div className="header__navLink">
-                resume
-              </div>
-            </Nav.Link>
+            <Menu right>
+              <Nav.Link
+                href="https://www.linkedin.com/in/peteryyoon/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="header__navLink">
+                  linkedin
+                </div>
+              </Nav.Link>
+              <Nav.Link
+                href="https://github.com/peyo"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="header__navLink">
+                  github
+                </div>
+              </Nav.Link>
+              <Nav.Link
+                href="https://leetcode.com/problems/maximal-network-rank/discuss/903980/(Javascript)-4-steps-including-base-case.-(96-ms-faster-than-98.79-43.5-MB-less-than-5.45)"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="header__navLink">
+                  leetcode
+                </div>
+              </Nav.Link>
+              <Nav.Link
+                href="/resume-page/resume"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="header__navLink">
+                  resume
+                </div>
+              </Nav.Link>
+            </Menu>
           </Nav>
         </Navbar>
         <div className="header__container">
