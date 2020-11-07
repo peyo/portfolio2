@@ -14,7 +14,7 @@ export default class App extends Component {
   render() {
     return (
       <div className="app">
-        <Analytics id="UA-179253130-1">
+        <Analytics id="G-S78FFFJZQR">
         <Switch>
           <Route exact path="/" component={LoadableLandingPage} />
           <Route path="/project-page/mech" component={LoadableMechPage} />
