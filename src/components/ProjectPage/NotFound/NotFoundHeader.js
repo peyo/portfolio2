@@ -1,28 +1,16 @@
-import React, { Component } from "react";
+import React from "react";
 
-// bootstrap
-import Navbar from "react-bootstrap/Navbar";
-
-// logo
-import Logo from "../../../assets/img/Logo.svg";
+// navbar
+import NavBar from "../../NavBar/NavBar";
 
 // css
 import "../../../assets/css/everything.css";
 
-export default class NotFoundHeader extends Component {
-  render() {
-    return (
-      <section className="notFoundHeader__header">
-        <Navbar className="justify-content-between">
-          <Navbar.Brand href="/">
-            <img
-              alt="peyo's logo"
-              src={Logo}
-              className="notFoundHeader__logo"
-            />{" "}
-          </Navbar.Brand>
-        </Navbar>
-      </section>
-    );
-  }
+function NotFoundHeader() {
+  return (
+    <section className="notFoundHeader__header">
+      <NavBar />
+    </section>
+  );
 }
+export default NotFoundHeader;
