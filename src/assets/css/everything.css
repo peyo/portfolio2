@@ -307,10 +307,10 @@ word__logo */ {
 }
 
 .mechNext__ul {
-  list-style-position: inside;
+  list-style-type: disc;
+  list-style-position: outside;
   margin: 0;
-  padding: 0 0 0 14px;
-  text-indent: -12.5px;
+  padding-left: 20px;
 }
 
 .mechFooter__container {
@@ -433,10 +433,10 @@ word__logo */ {
 }
 
 .cellierNext__ul {
-  list-style-position: inside;
+  list-style-type: disc;
+  list-style-position: outside;
   margin: 0;
-  padding: 0 0 0 14px;
-  text-indent: -12.5px;
+  padding-left: 20px;
 }
 
 .cellierFooter__container {
@@ -559,10 +559,10 @@ word__logo */ {
 }
 
 .wordNext__ul {
-  list-style-position: inside;
+  list-style-type: disc;
+  list-style-position: outside;
   margin: 0;
-  padding: 0 0 0 14px;
-  text-indent: -12.5px;
+  padding-left: 20px;
 }
 
 .wordFooter__container {

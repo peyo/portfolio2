@@ -40,7 +40,9 @@ function NavBar() {
           }}
         >
           <Navbar.Brand>
-            <img alt="peyo's logo" src={Logo} className="navbar__logo" />{" "}
+            <a href="/">
+              <img alt="peyo's logo" src={Logo} className="navbar__logo" />{" "}
+            </a>
           </Navbar.Brand>
           <Menu right width={"210px"} noOverlay>
             <Nav.Link
