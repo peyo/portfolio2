@@ -1,9 +1,12 @@
 import React from "react";
 
-export default function Footer() {
+function Footer() {
   return (
-    <div className="footer">
-
-    </div>
+    <section className="footer__footer">
+      <div className="footer__copy">
+        ©2020 Peter Yoon
+      </div>
+    </section>
   );
 }
+export default Footer; 

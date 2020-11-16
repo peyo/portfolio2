@@ -10,6 +10,7 @@ import WordPrototype from "../../components/ProjectPage/Word/WordPrototype";
 import WordLearnings from "../../components/ProjectPage/Word/WordLearnings";
 import WordNext from "../../components/ProjectPage/Word/WordNext";
 import WordFooter from "../../components/ProjectPage/Word/WordFooter";
+import Footer from "../../components/Footer/Footer";
 
 // css
 import "../../assets/css/everything.css";
@@ -27,6 +28,7 @@ export default class WordPage extends Component {
         <WordLearnings />
         <WordNext />
         <WordFooter />
+        <Footer />
       </section>
     );
   }

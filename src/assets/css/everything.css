@@ -145,6 +145,14 @@ body {
   top: 0;
 }
 
+/* footer */
+.footer__footer {
+  text-align: center;
+  padding: 18px;
+  background-color: black;
+  color: white;
+}
+
 /* landing page sections */
 .mech__container,
 .cellier__container,

@@ -10,6 +10,7 @@ import CellierPrototype from "../../components/ProjectPage/Cellier/CellierProtot
 import CellierLearnings from "../../components/ProjectPage/Cellier/CellierLearnings";
 import CellierNext from "../../components/ProjectPage/Cellier/CellierNext";
 import CellierFooter from "../../components/ProjectPage/Cellier/CellierFooter";
+import Footer from "../../components/Footer/Footer";
 
 // css
 import "../../assets/css/everything.css";
@@ -27,6 +28,7 @@ export default class CellierPage extends Component {
         <CellierLearnings />
         <CellierNext />
         <CellierFooter />
+        <Footer />
       </section>
     );
   }

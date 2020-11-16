@@ -11,6 +11,7 @@ import MechPrototype from "../../components/ProjectPage/Mech/MechPrototype";
 import MechLearnings from "../../components/ProjectPage/Mech/MechLearnings";
 import MechNext from "../../components/ProjectPage/Mech/MechNext";
 import MechFooter from "../../components/ProjectPage/Mech/MechFooter";
+import Footer from "../../components/Footer/Footer";
 
 // css
 import "../../assets/css/everything.css";
@@ -29,6 +30,7 @@ export default class MechPage extends Component {
         <MechLearnings />
         <MechNext />
         <MechFooter />
+        <Footer />
       </section>
     );
   }

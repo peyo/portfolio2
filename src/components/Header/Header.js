@@ -79,8 +79,7 @@ function Header() {
         <div className="header__spacing1"></div>
         <div className="header__shortBio">
           I believe curiosity and openness, paired with self-discipline and
-          diligence, lead to great outcomes. These traits afford us the ability
-          to tackle new challenges. Check out my explorations, applying
+          diligence, lead to great outcomes. Check out my explorations, applying
           curiosity and self-discipline to create simple to complex solutions.
         </div>
         <div className="header__spacing2"></div>

@@ -16,7 +16,6 @@ export default class ProjectSection extends Component {
         <Cellier />
         <Line />
         <Word />
-        <Line />
       </section>
     );
   }
