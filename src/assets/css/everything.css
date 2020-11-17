@@ -16,11 +16,18 @@ body {
 .navbar__navbar {
   position: fixed;
   width: 100vw;
+  justify-content: space-between;
 }
 
 .navbar__logo {
   width: 30px;
   height: 30px;
+}
+
+/* responsive burger */
+.responsiveBurger__links {
+  display: flex;
+  flex-direction: row;
 }
 
 /* landing page header */
