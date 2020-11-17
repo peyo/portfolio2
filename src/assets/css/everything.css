@@ -30,6 +30,10 @@ body {
   flex-direction: row;
 }
 
+.responsiveBurger__navLink {
+  color: black;
+}
+
 /* landing page header */
 .header__header {
   height: 90vh;
