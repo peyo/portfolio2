@@ -41,29 +41,31 @@ export default class Cellier extends Component {
             </StyleRoot>
           </LazyLoad>
           <div className="cellier__spacing1"></div>
-          <div className="cellier__text">
-            <div className="cellier__title">Cellier</div>
-            <div className="cellier__shortTitle">
-              Full Stack Development
+          <LazyLoad>
+            <div className="cellier__text">
+              <div className="cellier__title">Cellier</div>
+              <div className="cellier__shortTitle">
+                Full Stack Development
+              </div>
+              <div className="cellier__spacing"></div>
+              <div className="cellier__oneLiner">
+                Mapping all essential and fragrance oils of the world and helping people find and buy them. 
+              </div>
+              <div className="cellier__spacing"></div>
+              <div className="cellier__technologies">
+                Javascript, React, Express, Knex, Node.js, Postgres
+              </div>
+              <div className="cellier__spacing"></div>
+              <div className="mech__button">
+                <LinkContainer to="/project-page/cellier">
+                  <Button variant="outline-dark">
+                    View Project
+                  </Button>
+                </LinkContainer>
+              <div className="mech__spacing"></div>
+              </div>
             </div>
-            <div className="cellier__spacing"></div>
-            <div className="cellier__oneLiner">
-              Mapping all essential and fragrance oils of the world and helping people find and buy them. 
-            </div>
-            <div className="cellier__spacing"></div>
-            <div className="cellier__technologies">
-              Javascript, React, Express, Knex, Node.js, Postgres
-            </div>
-            <div className="cellier__spacing"></div>
-            <div className="mech__button">
-              <LinkContainer to="/project-page/cellier">
-                <Button variant="outline-dark">
-                  View Project
-                </Button>
-              </LinkContainer>
-            <div className="mech__spacing"></div>
-            </div>
-          </div>
+          </LazyLoad>
         </div>
       </section>
     );

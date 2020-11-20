@@ -37,26 +37,28 @@ export default class Mech extends Component {
             </StyleRoot>
           </LazyLoad>
           <div className="mech__spacing1"></div>
-          <div className="mech__text">
-            <div className="mech__title">Mech</div>
-            <div className="mech__shortTitle">Full Stack Development</div>
-            <div className="mech__spacing"></div>
-            <div className="mech__oneLiner">
-              Organizing all car trouble codes and making it universally
-              accessible, human, and useful.
-            </div>
-            <div className="mech__spacing"></div>
-            <div className="mech__technologies">
-              Javascript, React, Express, Knex, Node.js, Postgres, Python
-            </div>
-            <div className="mech__spacing"></div>
-            <div className="mech__button">
-              <LinkContainer to="/project-page/mech">
-                <Button variant="outline-dark">View Project</Button>
-              </LinkContainer>
+          <LazyLoad>
+            <div className="mech__text">
+              <div className="mech__title">Mech</div>
+              <div className="mech__shortTitle">Full Stack Development</div>
               <div className="mech__spacing"></div>
+              <div className="mech__oneLiner">
+                Organizing all car trouble codes and making it universally
+                accessible, human, and useful.
+              </div>
+              <div className="mech__spacing"></div>
+              <div className="mech__technologies">
+                Javascript, React, Express, Knex, Node.js, Postgres, Python
+              </div>
+              <div className="mech__spacing"></div>
+              <div className="mech__button">
+                <LinkContainer to="/project-page/mech">
+                  <Button variant="outline-dark">View Project</Button>
+                </LinkContainer>
+                <div className="mech__spacing"></div>
+              </div>
             </div>
-          </div>
+          </LazyLoad>
         </div>
       </section>
     );
