@@ -1,10 +1,21 @@
 import React, { useState, useRef, useEffect } from "react";
 
+// animations and radium
+import { fadeInDown } from "react-animations";
+import Radium, {StyleRoot} from "radium";
+
 // navbar
 import NavBar from "../NavBar/NavBar";
 
 // css
 import "../../assets/css/everything.css";
+
+const styles = {
+  fadeInDown: {
+    animation: "x 1s",
+    animationName: Radium.keyframes(fadeInDown, "fadeInDown")
+  }
+}
 
 function Header() {
   const [navBackground, setNavBackground] = useState(false);
@@ -28,16 +39,18 @@ function Header() {
       <div className="header__navbar-container">
         <NavBar />
       </div>
-      <div className="header__container">
-        <div className="header__helloWorld">Hello World. I'm Peter.</div>
-        <div className="header__spacing1"></div>
-        <div className="header__shortBio">
-          I believe curiosity and openness, paired with self-discipline and
-          diligence, lead to great outcomes. Check out my explorations, applying
-          curiosity and self-discipline to create simple to complex solutions.
+      <StyleRoot>
+        <div className="header__container" style={styles.fadeInDown}>
+          <div className="header__helloWorld">Hello World. I'm Peter.</div>
+          <div className="header__spacing1"></div>
+          <div className="header__shortBio">
+            I believe curiosity and openness, paired with self-discipline and
+            diligence, lead to great outcomes. Check out my explorations, applying
+            curiosity and self-discipline to create simple to complex solutions.
+          </div>
+          <div className="header__spacing2"></div>
         </div>
-        <div className="header__spacing2"></div>
-      </div>
+      </StyleRoot>
     </section>
   );
 }

@@ -35,7 +35,7 @@ function Loading(props) {
   if (props.error) {
     return <div className="loadable__errorMsg">Oh no, something went wrong! Go back and try again.</div>;
   } else if (props.timedOut) {
-    return <div className="loadable__timeoutMsg">Taking a long time... Go back and try again.</div>;
+    return <div className="loadable__timeoutMsg">It's taking a long time... Go back and try again.</div>;
   } else if (props.pastDelay) {
     return (
       <div className="loadable__heart"></div>

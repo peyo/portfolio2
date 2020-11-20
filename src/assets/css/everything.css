@@ -175,9 +175,8 @@ body {
 }
 
 .mech__logo,
-.lazy
-/* cellier__logo,
-word__logo */ {
+.cellier__logo,
+.word__logo {
   width: 454px;
   height: 454px;
 }
@@ -223,7 +222,7 @@ word__logo */ {
 }
 
 .line__line {
-  height: 1px;
+  height: 3px;
   background-color: #979797;
 }
 
@@ -692,8 +691,7 @@ word__logo */ {
     padding: 60px 90px;
   }
 
-  .mech__logo,
-  .lazy
+  .mech__logo
   /* .cellier__logo,
   .word__logo */ {
     width: 270px;
@@ -784,8 +782,7 @@ word__logo */ {
     padding: 100px 150px;
   }
   
-  .mech__logo,
-  .lazy
+  .mech__logo
   /* .cellier__logo,
   .word__logo */ {
     width: 400px;
@@ -876,8 +873,7 @@ word__logo */ {
     padding: 100px 240px;
   }
 
-  .mech__logo,
-  .lazy
+  .mech__logo
   /* .cellier__logo,
   .word__logo */ {
     width: 454px;
