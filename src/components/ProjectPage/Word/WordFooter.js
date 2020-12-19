@@ -11,13 +11,13 @@ export default class WordHeader extends Component {
     return (
       <section className="wordFooter__footer">
         <div className="wordFooter__container">
-          <Link to="/project-page/mech">
+          <Link to="/project-page/shonk">
             <div className="wordFooter__title">
                 Next Project
             </div>
           </Link>
           <div className="wordFooter__subtitle">
-            Mech
+            Shonk
           </div>
         </div>
       </section>

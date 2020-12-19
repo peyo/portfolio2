@@ -17,6 +17,7 @@ export default class App extends Component {
         <Analytics id="G-S78FFFJZQR">
         <Switch>
           <Route exact path="/" component={LoadableLandingPage} />
+          <Route path="/project-page/shonk" component={LoadableShonkPage} />
           <Route path="/project-page/mech" component={LoadableMechPage} />
           <Route path="/project-page/cellier" component={LoadableCellierPage} />
           <Route path="/project-page/word" component={LoadableWordPage} />
@@ -48,6 +49,12 @@ function Loading(props) {
 // loadable pages with routes
 const LoadableLandingPage = Loadable({
   loader: () => import("./routes/LandingPage/LandingPage"),
+  loading: Loading,
+  delay: 300,
+});
+
+const LoadableShonkPage = Loadable({
+  loader: () => import("./routes/ProjectPage/ShonkPage"),
   loading: Loading,
   delay: 300,
 });

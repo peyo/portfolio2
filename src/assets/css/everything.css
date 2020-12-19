@@ -176,6 +176,7 @@ body {
 }
 
 /* landing page sections */
+.shonk__container,
 .mech__container,
 .cellier__container,
 .word__container {
@@ -185,6 +186,7 @@ body {
   padding: 225px 120px 225px 120px;
 }
 
+.shonk__logo,
 .mech__logo,
 .cellier__logo,
 .word__logo {
@@ -192,12 +194,14 @@ body {
   height: 454px;
 }
 
+.shonk__spacing1,
 .mech__spacing1,
 .cellier__spacing1,
 .word__spacing1 {
   width: 120px;
 }
 
+.shonk__title,
 .mech__title,
 .cellier__title,
 .word__title {
@@ -205,6 +209,7 @@ body {
   letter-spacing: 0;
 }
 
+.shonk__shortTitle,
 .mech__shortTitle,
 .cellier__shortTitle,
 .word__shortTitle {
@@ -212,12 +217,14 @@ body {
   letter-spacing: 0;
 }
 
+.shonk__spacing,
 .mech__spacing,
 .cellier__spacing,
 .word__spacing {
   height: 30px;
 }
 
+.shonk__oneLiner,
 .mech__oneLiner,
 .cellier__oneLiner,
 .word__oneLiner {
@@ -225,6 +232,7 @@ body {
   letter-spacing: 0;
 }
 
+.shonk__technologies,
 .mech__technologies,
 .cellier__technologies,
 .word__technologies {
@@ -235,6 +243,132 @@ body {
 .line__line {
   height: 3px;
   background-color: #979797;
+}
+
+/* shonk project page navbar */
+.shonkHeader__navbar {
+  position: fixed;
+  width: 100vw;
+}
+
+/* shonk project page header */
+.shonkHeader__header {
+  height: 90vh;
+  background-color: #f0f0f0;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.5) 0%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+  position: relative;
+  background-image: url(../../assets/img/Hero/ShonkHero.jpeg);
+  background-size: 100% 100%;
+}
+
+.shonkHeader__logo {
+  width: 30px;
+  height: 30px;
+}
+
+.shonkHeader__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 90vh;
+  padding: 300px 180px 330px 180px;
+}
+
+.shonkHeader__shortDescription {
+  font-size: calc(9px + 2vw);
+  letter-spacing: 0;
+  color: white;
+}
+
+.shonkHeader__spacing1 {
+  height: 90px;
+}
+
+/* shonk project page sections */
+.shonkChallenge__container {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  padding: 90px 180px;
+}
+
+.shonkChallenge__title,
+.shonkApproach__title,
+.shonkInitialBrainstorm__title,
+.shonkUserFlow__title,
+.shonkPrototype__title,
+.shonkLearnings__title,
+.shonkNext__title {
+  font-size: calc(9px + 2vw);
+  letter-spacing: 0;
+}
+
+.shonkChallenge__spacing1,
+.shonkApproach__spacing1,
+.shonkInitialBrainstorm__spacing1,
+.shonkUserFlow__spacing1,
+.shonkPrototype__spacing1,
+.shonkLearnings__spacing1,
+.shonkNext__spacing1 {
+  height: 30px;
+}
+
+.shonkChallenge__description,
+.shonkApproach__description,
+.shonkInitialBrainstorm__description,
+.shonkUserFlow__description,
+.shonkPrototype__description,
+.shonkLearnings__description,
+.shonkNext__description {
+  font-size: calc(9px + 1vw);
+  letter-spacing: 0;
+}
+
+.shonkApproach__container,
+.shonkInitialBrainstorm__container,
+.shonkUserFlow__container,
+.shonkPrototype__container,
+.shonkLearnings__container,
+.shonkNext__container {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  padding: 0 180px 90px 180px;
+}
+
+.shonkNext__ul {
+  list-style-type: disc;
+  list-style-position: outside;
+  margin: 0;
+  padding-left: 20px;
+}
+
+.shonkFooter__container {
+  padding: 120px;
+  text-align: center;
+  background-image: url(../../assets/img/Footer/Footer.png);
+  background-size: 100% 100%;
+}
+
+.shonkFooter__title {
+  font-size: calc(9px + 2vw);
+  opacity: 0.38;
+  letter-spacing: 0;
+  text-decoration: underline;
+  color: rgb(88, 88, 88);
+}
+
+.shonkFooter__title:hover {
+  color: rgb(25, 25, 25);
+}
+
+.shonkFooter__subtitle {
+  font-size: calc(12px + 6vw);
+  letter-spacing: 0;
 }
 
 /* mech project page navbar */
