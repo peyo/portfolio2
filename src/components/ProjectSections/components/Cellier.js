@@ -53,7 +53,7 @@ export default class Cellier extends Component {
               </div>
               <div className="cellier__spacing"></div>
               <div className="cellier__technologies">
-                Javascript, React, Express, Knex, Node.js, Postgres
+                Javascript, React, Express, Knex, Node.js, Postgres, Vercel, Heroku
               </div>
               <div className="cellier__spacing"></div>
               <div className="mech__button">

@@ -47,7 +47,7 @@ export default class Shonk extends Component {
               </div>
               <div className="shonk__spacing"></div>
               <div className="shonk__technologies">
-                Javascript, React, Apollo, GraphQL, Node.js, Sequelize, SQLite
+                Javascript, React, Apollo, GraphQL, Node.js, Sequelize, SQLite, Vercel, CodeSandBox
               </div>
               <div className="shonk__spacing"></div>
               <div className="shonk__button">

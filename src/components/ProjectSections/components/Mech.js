@@ -48,7 +48,7 @@ export default class Mech extends Component {
               </div>
               <div className="mech__spacing"></div>
               <div className="mech__technologies">
-                Javascript, React, Express, Knex, Node.js, Postgres, Python
+                Javascript, React, Express, Knex, Node.js, Postgres, Python, Vercel, Heroku
               </div>
               <div className="mech__spacing"></div>
               <div className="mech__button">
