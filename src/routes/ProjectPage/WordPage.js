@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 // components
 import WordHeader from "../../components/ProjectPage/Word/WordHeader";
+import WordSubheader from "../../components/ProjectPage/Word/WordSubheader";
 import WordChallenge from "../../components/ProjectPage/Word/WordChallenge";
 import WordApproach from "../../components/ProjectPage/Word/WordApproach";
 import WordInitialBrainstorm from "../../components/ProjectPage/Word/WordInitialBrainstorm";
@@ -20,6 +21,7 @@ export default class WordPage extends Component {
     return (
       <section className="wordPage">
         <WordHeader />
+        <WordSubheader />
         <WordChallenge />
         <WordApproach />
         <WordInitialBrainstorm />

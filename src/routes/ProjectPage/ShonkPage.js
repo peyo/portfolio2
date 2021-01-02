@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 // components
 import ShonkHeader from "../../components/ProjectPage/Shonk/ShonkHeader";
+import ShonkSubheader from "../../components/ProjectPage/Shonk/ShonkSubheader";
 import ShonkChallenge from "../../components/ProjectPage/Shonk/ShonkChallenge";
 import ShonkApproach from "../../components/ProjectPage/Shonk/ShonkApproach";
 import ShonkPrototype from "../../components/ProjectPage/Shonk/ShonkPrototype";
@@ -18,6 +19,7 @@ export default class ShonkPage extends Component {
     return (
       <section className="shonkPage">
         <ShonkHeader />
+        <ShonkSubheader />
         <ShonkChallenge />
         <ShonkApproach />
         <ShonkPrototype />

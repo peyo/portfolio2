@@ -12,7 +12,7 @@ import { LinkContainer } from "react-router-bootstrap";
 import LazyLoad from "react-lazyload";
 
 // logo
-import Logo from "../../../assets/img/ProjectThumbnail/Cellier.gif"
+import Logo from "../../../assets/img/ProjectThumbnail/Cellier.png"
 
 // css
 import "../../../assets/css/everything.css";

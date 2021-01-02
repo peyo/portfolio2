@@ -24,9 +24,8 @@ function ShonkHeader() {
       <StyleRoot>
         <div className="shonkHeader__container" style={styles.fadeInDown}>
           <div className="shonkHeader__shortDescription">
-            Shonk is a link management platform to brand, track, and share shortened links using a custom domain.
+            Shonk
           </div>
-          <div className="shonkHeader__spacing1"></div>
         </div>
       </StyleRoot>
     </section>

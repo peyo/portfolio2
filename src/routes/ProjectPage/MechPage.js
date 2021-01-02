@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 // components
 import MechHeader from "../../components/ProjectPage/Mech/MechHeader";
+import MechSubheader from "../../components/ProjectPage/Mech/MechSubheader";
 import MechChallenge from "../../components/ProjectPage/Mech/MechChallenge";
 import MechApproach from "../../components/ProjectPage/Mech/MechApproach";
 import MechInitialBrainstorm from "../../components/ProjectPage/Mech/MechInitialBrainstorm";
@@ -21,6 +22,7 @@ export default class MechPage extends Component {
     return (
       <section className="mechPage">
         <MechHeader />
+        <MechSubheader />
         <MechChallenge />
         <MechApproach />
         <MechInitialBrainstorm />

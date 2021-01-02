@@ -24,11 +24,8 @@ function WordHeader() {
       <StyleRoot>
         <div className="wordHeader__container" style={styles.fadeInDown}>
           <div className="wordHeader__shortDescription">
-            Word helps users acquire a better understanding and feeling of words
-            through a sentiment score using definitions, poems, lyrics, and
-            videos.
+            Word
           </div>
-          <div className="wordHeader__spacing1"></div>
         </div>
       </StyleRoot>
     </section>

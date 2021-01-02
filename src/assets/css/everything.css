@@ -37,15 +37,13 @@ body {
 /* landing page header */
 .header__header {
   height: 90vh;
-  background-color: #f0f0f0;
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0.5) 0%,
-    rgba(0, 0, 0, 0.5) 100%
-  );
   position: relative;
   background-image: url(../../assets/img/Hero/LPHero.jpg);
   background-size: 100% 100%;
+  -ms-background-position-x: center;
+  -ms-background-position-y: bottom;
+  background-position: center bottom;
+  background-size: cover;
 }
 
 .header__navbar {
@@ -68,23 +66,21 @@ body {
 }
 
 .header__helloWorld {
-  color: #000000;
-  font-size: calc(12px + 6vw);
+  color: #ffffff;
+  font-size: calc(12px + 1.5vw);
+  text-align: center;
+  padding: 69vh 0 0 0;
   letter-spacing: 0;
-  padding: 60px 0 0 0;
+  min-width: auto;
 }
 
-.header__spacing1 {
+.header__spacing {
   height: 30px;
 }
 
 .header__shortBio {
   font-size: calc(9px + 2vw);
   letter-spacing: 0;
-}
-
-.header__spacing2 {
-  height: 90px;
 }
 
 /* position and sizing of burger button */
@@ -176,6 +172,13 @@ body {
 }
 
 /* landing page sections */
+.subheader__container {
+  display: block;
+  text-align: center;
+  align-items: center;
+  padding: 225px 120px 225px 120px;
+}
+
 .shonk__container,
 .mech__container,
 .cellier__container,
@@ -194,6 +197,7 @@ body {
   height: 454px;
 }
 
+.subheader__spacing,
 .shonk__spacing1,
 .mech__spacing1,
 .cellier__spacing1,
@@ -205,7 +209,7 @@ body {
 .mech__title,
 .cellier__title,
 .word__title {
-  font-size: calc(12px + 6vw);
+  font-size: calc(12px + 2vw);
   letter-spacing: 0;
 }
 
@@ -213,7 +217,7 @@ body {
 .mech__shortTitle,
 .cellier__shortTitle,
 .word__shortTitle {
-  font-size: calc(9px + 2vw);
+  font-size: calc(12px + 1vw);
   letter-spacing: 0;
 }
 
@@ -241,7 +245,11 @@ body {
 }
 
 .line__line {
-  height: 3px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90vw;
+  height: 1px;
   background-color: #979797;
 }
 
@@ -254,15 +262,13 @@ body {
 /* shonk project page header */
 .shonkHeader__header {
   height: 90vh;
-  background-color: #f0f0f0;
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0.5) 0%,
-    rgba(0, 0, 0, 0.5) 100%
-  );
   position: relative;
   background-image: url(../../assets/img/Hero/ShonkHero.jpeg);
   background-size: 100% 100%;
+  -ms-background-position-x: center;
+  -ms-background-position-y: bottom;
+  background-position: center bottom;
+  background-size: cover;
 }
 
 .shonkHeader__logo {
@@ -275,13 +281,16 @@ body {
   flex-direction: column;
   justify-content: center;
   height: 90vh;
-  padding: 300px 180px 330px 180px;
+  padding: 0 120px 0 120px;
 }
 
 .shonkHeader__shortDescription {
-  font-size: calc(9px + 2vw);
+  color: #ffffff;
+  font-size: calc(12px + 1.5vw);
+  text-align: center;
+  padding: 69vh 0 0 0;
   letter-spacing: 0;
-  color: white;
+  min-width: auto;
 }
 
 .shonkHeader__spacing1 {
@@ -289,7 +298,7 @@ body {
 }
 
 /* shonk project page sections */
-.shonkChallenge__container {
+.shonkSubheader__shortDescription {
   display: flex;
   text-align: left;
   flex-direction: column;
@@ -303,7 +312,7 @@ body {
 .shonkPrototype__title,
 .shonkLearnings__title,
 .shonkNext__title {
-  font-size: calc(9px + 2vw);
+  font-size: calc(12px + 1.5vw);
   letter-spacing: 0;
 }
 
@@ -324,10 +333,11 @@ body {
 .shonkPrototype__description,
 .shonkLearnings__description,
 .shonkNext__description {
-  font-size: calc(9px + 1vw);
+  font-size: 12;
   letter-spacing: 0;
 }
 
+.shonkChallenge__container,
 .shonkApproach__container,
 .shonkInitialBrainstorm__container,
 .shonkUserFlow__container,
@@ -380,14 +390,13 @@ body {
 /* mech project page header */
 .mechHeader__header {
   height: 90vh;
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0.5) 0%,
-    rgba(0, 0, 0, 0.5) 100%
-  );
   position: relative;
   background-image: url(../../assets/img/Hero/MechHero.jpeg);
   background-size: 100% 100%;
+  -ms-background-position-x: center;
+  -ms-background-position-y: bottom;
+  background-position: center bottom;
+  background-size: cover;
 }
 
 .mechHeader__logo {
@@ -400,21 +409,20 @@ body {
   flex-direction: column;
   justify-content: center;
   height: 90vh;
-  padding: 300px 180px 330px 180px;
+  padding: 0 120px 0 120px;
 }
 
 .mechHeader__shortDescription {
-  font-size: calc(9px + 2vw);
+  color: #ffffff;
+  font-size: calc(12px + 1.5vw);
+  text-align: center;
+  padding: 69vh 0 0 0;
   letter-spacing: 0;
-  color: white;
-}
-
-.mechHeader__spacing1 {
-  height: 90px;
+  min-width: auto;
 }
 
 /* mech project page sections */
-.mechChallenge__container {
+.mechSubheader__shortDescription {
   display: flex;
   text-align: left;
   flex-direction: column;
@@ -429,7 +437,7 @@ body {
 .mechPrototype__title,
 .mechLearnings__title,
 .mechNext__title {
-  font-size: calc(9px + 2vw);
+  font-size: calc(12px + 1.5vw);
   letter-spacing: 0;
 }
 
@@ -452,10 +460,11 @@ body {
 .mechPrototype__description,
 .mechLearnings__description,
 .mechNext__description {
-  font-size: calc(9px + 1vw);
+  font-size: 12;
   letter-spacing: 0;
 }
 
+.mechChallenge__container,
 .mechApproach__container,
 .mechInitialBrainstorm__container,
 .mechUserFlow__container,
@@ -509,15 +518,13 @@ body {
 /* cellier project page header */
 .cellierHeader__header {
   height: 90vh;
-  background-color: #f0f0f0;
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0.5) 0%,
-    rgba(0, 0, 0, 0.5) 100%
-  );
   position: relative;
   background-image: url(../../assets/img/Hero/CellierHero.jpeg);
   background-size: 100% 100%;
+  -ms-background-position-x: center;
+  -ms-background-position-y: bottom;
+  background-position: center bottom;
+  background-size: cover;
 }
 
 .cellierHeader__logo {
@@ -530,21 +537,20 @@ body {
   flex-direction: column;
   justify-content: center;
   height: 90vh;
-  padding: 300px 180px 330px 180px;
+  padding: 0 120px 0 120px;
 }
 
 .cellierHeader__shortDescription {
-  font-size: calc(9px + 2vw);
+  color: #ffffff;
+  font-size: calc(12px + 1.5vw);
+  text-align: center;
+  padding: 69vh 0 0 0;
   letter-spacing: 0;
-  color: white;
-}
-
-.cellierHeader__spacing1 {
-  height: 90px;
+  min-width: auto;
 }
 
 /* cellier project page sections */
-.cellierChallenge__container {
+.cellierSubheader__shortDescription {
   display: flex;
   text-align: left;
   flex-direction: column;
@@ -558,7 +564,7 @@ body {
 .cellierPrototype__title,
 .cellierLearnings__title,
 .cellierNext__title {
-  font-size: calc(9px + 2vw);
+  font-size: calc(12px + 1.5vw);
   letter-spacing: 0;
 }
 
@@ -579,10 +585,11 @@ body {
 .cellierPrototype__description,
 .cellierLearnings__description,
 .cellierNext__description {
-  font-size: calc(9px + 1vw);
+  font-size: 12;
   letter-spacing: 0;
 }
 
+.cellierChallenge__container,
 .cellierApproach__container,
 .cellierInitialBrainstorm__container,
 .cellierUserFlow__container,
@@ -635,15 +642,13 @@ body {
 /* word project page header */
 .wordHeader__header {
   height: 90vh;
-  background-color: #f0f0f0;
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0.5) 0%,
-    rgba(0, 0, 0, 0.5) 100%
-  );
   position: relative;
   background-image: url(../../assets/img/Hero/WordHero.png);
   background-size: 100% 100%;
+  -ms-background-position-x: center;
+  -ms-background-position-y: bottom;
+  background-position: center bottom;
+  background-size: cover;
 }
 
 .wordHeader__logo {
@@ -656,13 +661,16 @@ body {
   flex-direction: column;
   justify-content: center;
   height: 90vh;
-  padding: 300px 180px 330px 180px;
+  padding: 0 120px 0 120px;
 }
 
 .wordHeader__shortDescription {
-  font-size: calc(9px + 2vw);
+  color: #ffffff;
+  font-size: calc(12px + 1.5vw);
+  text-align: center;
+  padding: 69vh 0 0 0;
   letter-spacing: 0;
-  color: white;
+  min-width: auto;
 }
 
 .wordHeader__spacing1 {
@@ -670,7 +678,7 @@ body {
 }
 
 /* word project page sections */
-.wordChallenge__container {
+.wordSubheader__shortDescription {
   display: flex;
   text-align: left;
   flex-direction: column;
@@ -684,7 +692,7 @@ body {
 .wordPrototype__title,
 .wordLearnings__title,
 .wordNext__title {
-  font-size: calc(9px + 2vw);
+  font-size: calc(12px + 1.5vw);
   letter-spacing: 0;
 }
 
@@ -705,10 +713,11 @@ body {
 .wordPrototype__description,
 .wordLearnings__description,
 .wordNext__description {
-  font-size: calc(9px + 1vw);
+  font-size: 12;
   letter-spacing: 0;
 }
 
+.wordChallenge__container,
 .wordApproach__container,
 .wordInitialBrainstorm__container,
 .wordUserFlow__container,
@@ -829,6 +838,8 @@ body {
     padding: 0 33px;
   }
 
+  .subheader__container,
+  .shonk__container,
   .mech__container,
   .cellier__container,
   .word__container {
@@ -836,6 +847,7 @@ body {
     padding: 60px 90px;
   }
 
+  .shonk__logo,
   .mech__logo,
   .cellier__logo,
   .word__logo {
@@ -843,6 +855,7 @@ body {
     height: 270px;
   }
 
+  .shonkHeader__container,
   .mechHeader__container,
   .cellierHeader__container,
   .wordHeader__container,
@@ -851,15 +864,23 @@ body {
     flex-direction: column;
     justify-content: center;
     height: 90vh;
-    padding: 120px 30px 90px 30px;
+    padding: 0 120px 0 120px;
   }
 
-  .mechChallenge__container,
-  .cellierChallenge__container,
-  .wordChallenge__container {
+  .shonkSubheader__shortDescription,
+  .mechSubheader__shortDescription,
+  .cellierSubheader__shortDescription,
+  .wordSubheader__shortDescription {
     padding: 30px;
   }
-
+  .shonkChallenge__container,
+  .mechChallenge__container,
+  .cellierChallenge__container,
+  .wordChallenge__container,
+  .shonkApproach__container,
+  .shonkPrototype__container,
+  .shonkLearnings__container,
+  .shonkNext__container,
   .mechApproach__container,
   .mechInitialBrainstorm__container,
   .mechUserFlow__container,
@@ -882,12 +903,17 @@ body {
     padding: 0 30px 30px 30px;
   }
 
+  .shonk__spacing1,
   .mech__spacing1,
   .cellier__spacing1,
   .word__spacing1 {
     height: 30px;
   }
 
+  .shonkApproach__spacing1,
+  .shonkPrototype__spacing1,
+  .shonkLearnings__spacing1,
+  .shonkNext__spacing1,
   .mechChallenge__spacing1,
   .mechApproach__spacing1,
   .mechInitialBrainstorm__spacing1,
@@ -920,6 +946,8 @@ body {
     padding: 0 66px;
   }
 
+  .subheader__container,
+  .shonk__container,
   .mech__container,
   .cellier__container,
   .word__container {
@@ -927,6 +955,7 @@ body {
     padding: 100px 150px;
   }
 
+  .shonk__logo,
   .mech__logo,
   .cellier__logo,
   .word__logo {
@@ -934,6 +963,7 @@ body {
     height: 400px;
   }
 
+  .shonkHeader__container,
   .mechHeader__container,
   .cellierHeader__container,
   .wordHeader__container,
@@ -942,15 +972,24 @@ body {
     flex-direction: column;
     justify-content: center;
     height: 90vh;
-    padding: 210px 90px 210px 90px;
+    padding: 0 120px 0 120px;
   }
 
-  .mechChallenge__container,
-  .cellierChallenge__container,
-  .wordChallenge__container {
+  .shonkSubheader__shortDescription,
+  .mechSubheader__shortDescription,
+  .cellierSubheader__shortDescription,
+  .wordSubheader__shortDescription {
     padding: 90px;
   }
 
+  .shonkChallenge__container,
+  .mechChallenge__container,
+  .cellierChallenge__container,
+  .wordChallenge__container,
+  .shonkApproach__container,
+  .shonkPrototype__container,
+  .shonkLearnings__container,
+  .shonkNext__container,
   .mechApproach__container,
   .mechInitialBrainstorm__container,
   .mechUserFlow__container,
@@ -973,12 +1012,18 @@ body {
     padding: 0 90px 90px 90px;
   }
 
+  .subheader__spacing,
+  .shonk__spacing1,
   .mech__spacing1,
   .cellier__spacing1,
   .word__spacing1 {
     height: 30px;
   }
 
+  .shonkApproach__spacing1,
+  .shonkPrototype__spacing1,
+  .shonkLearnings__spacing1,
+  .shonkNext__spacing1,
   .mechChallenge__spacing1,
   .mechApproach__spacing1,
   .mechInitialBrainstorm__spacing1,
@@ -1011,6 +1056,8 @@ body {
     padding: 0 90px;
   }
 
+  .subheader__container,
+  .shonk__container,
   .mech__container,
   .cellier__container,
   .word__container {
@@ -1018,6 +1065,7 @@ body {
     padding: 100px 240px;
   }
 
+  .shonk__logo,
   .mech__logo,
   .cellier__logo,
   .word__logo {
@@ -1025,6 +1073,7 @@ body {
     height: 454px;
   }
 
+  .shonkHeader__container,
   .mechHeader__container,
   .cellierHeader__container,
   .wordHeader__container,
@@ -1033,15 +1082,24 @@ body {
     flex-direction: column;
     justify-content: center;
     height: 90vh;
-    padding: 240px 180px 240px 180px;
+    padding: 0 120px 0 120px;
   }
 
-  .mechChallenge__container,
-  .cellierChallenge__container,
-  .wordChallenge__container {
+  .shonkSubheader__shortDescription,
+  .mechSubheader__shortDescription,
+  .cellierSubheader__shortDescription,
+  .wordSubheader__shortDescription {
     padding: 90px 180px;
   }
 
+  .shonkChallenge__container,
+  .mechChallenge__container,
+  .cellierChallenge__container,
+  .wordChallenge__container,
+  .shonkApproach__container,
+  .shonkPrototype__container,
+  .shonkLearnings__container,
+  .shonkNext__container,
   .mechApproach__container,
   .mechInitialBrainstorm__container,
   .mechUserFlow__container,
@@ -1064,12 +1122,18 @@ body {
     padding: 0 180px 90px 180px;
   }
 
+  .subheader__spacing,
+  .shonk__spacing1,
   .mech__spacing1,
   .cellier__spacing1,
   .word__spacing1 {
     height: 33px;
   }
 
+  .shonkApproach__spacing1,
+  .shonkPrototype__spacing1,
+  .shonkLearnings__spacing1,
+  .shonkNext__spacing1,
   .mechChallenge__spacing1,
   .mechApproach__spacing1,
   .mechInitialBrainstorm__spacing1,

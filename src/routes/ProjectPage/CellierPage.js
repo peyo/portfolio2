@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 // components
 import CellierHeader from "../../components/ProjectPage/Cellier/CellierHeader";
+import CellierSubheader from "../../components/ProjectPage/Cellier/CellierSubheader";
 import CellierChallenge from "../../components/ProjectPage/Cellier/CellierChallenge";
 import CellierApproach from "../../components/ProjectPage/Cellier/CellierApproach";
 import CellierInitialBrainstorm from "../../components/ProjectPage/Cellier/CellierInitialBrainstorm";
@@ -20,6 +21,7 @@ export default class CellierPage extends Component {
     return (
       <section className="cellierPage">
         <CellierHeader />
+        <CellierSubheader />
         <CellierChallenge />
         <CellierApproach />
         <CellierInitialBrainstorm />

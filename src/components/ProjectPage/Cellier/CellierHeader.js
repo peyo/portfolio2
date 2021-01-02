@@ -24,11 +24,8 @@ function CellierHeader() {
       <StyleRoot>
         <div className="cellierHeader__container" style={styles.fadeInDown}>
           <div className="cellierHeader__shortDescription">
-            Cellier is a search tool that helps people find different distributors
-            of essential oils, fragrance oils, absolutes, and waxes. It will also
-            recommend oils that mix well with others based on a fragrance wheel.
+            Cellier
           </div>
-          <div className="cellierHeader__spacing1"></div>
         </div>
       </StyleRoot>
     </section>
