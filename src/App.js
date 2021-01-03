@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Route, Switch, Redirect } from "react-router-dom";
 
 // google analytics (only page views)
-import Analytics from 'react-router-ga';
+import Analytics from "react-router-ga";
 
 // loading components
 import Loadable from "react-loadable";
@@ -15,15 +15,18 @@ export default class App extends Component {
     return (
       <div className="app">
         <Analytics id="G-S78FFFJZQR">
-        <Switch>
-          <Route exact path="/" component={LoadableLandingPage} />
-          <Route path="/project-page/shonk" component={LoadableShonkPage} />
-          <Route path="/project-page/mech" component={LoadableMechPage} />
-          <Route path="/project-page/cellier" component={LoadableCellierPage} />
-          <Route path="/project-page/word" component={LoadableWordPage} />
-          <Route path="/resume-page/resume" component={LoadableResumePage} />
-          <Route path="/404" component={LoadableNotFoundPage} />
-          <Redirect to="/404" />
+          <Switch>
+            <Route exact path="/" component={LoadableLandingPage} />
+            <Route path="/project-page/shonk" component={LoadableShonkPage} />
+            <Route path="/project-page/mech" component={LoadableMechPage} />
+            <Route
+              path="/project-page/cellier"
+              component={LoadableCellierPage}
+            />
+            <Route path="/project-page/word" component={LoadableWordPage} />
+            <Route path="/resume-page/resume" component={LoadableResumePage} />
+            <Route path="/404" component={LoadableNotFoundPage} />
+            <Redirect to="/404" />
           </Switch>
         </Analytics>
       </div>
@@ -34,13 +37,23 @@ export default class App extends Component {
 // loadable function
 function Loading(props) {
   if (props.error) {
-    return <div className="loadable__errorMsg">Oh no, something went wrong! Go back and try again.</div>;
-  } else if (props.timedOut) {
-    return <div className="loadable__timeoutMsg">It's taking a long time... Go back and try again.</div>;
-  } else if (props.pastDelay) {
     return (
-      <div className="loadable__heart"></div>
+      <div className="loadable__errorMsg">
+        Oh no, something went wrong!
+        <br />
+        Go back and try again.
+      </div>
     );
+  } else if (props.timedOut) {
+    return (
+      <div className="loadable__timeoutMsg">
+        It's taking a long time...
+        <br />
+        Go back and try again.
+      </div>
+    );
+  } else if (props.pastDelay) {
+    return <div className="loadable__heart"></div>;
   } else {
     return null;
   }
