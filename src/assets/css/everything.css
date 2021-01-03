@@ -168,16 +168,6 @@ a:hover {
   top: 0;
 }
 
-.loadable__errorMsg,
-.loadable__timeoutMsg {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: calc(11px + 1vw);
-  letter-spacing: 0;
-}
-
 /* footer */
 .footer__footer {
   text-align: center;
