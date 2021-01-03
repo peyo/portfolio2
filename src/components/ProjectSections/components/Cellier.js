@@ -32,11 +32,7 @@ export default class Cellier extends Component {
           <LazyLoad once offset={100}>
             <StyleRoot>
               <div className="cellier__image" style={styles.fadeInLeft}>
-                <img
-                  alt="cellier logo"
-                  src={Logo}
-                  className="cellier__logo"
-                />{" "}
+                <img alt="cellier logo" src={Logo} className="cellier__logo" />{" "}
               </div>
             </StyleRoot>
           </LazyLoad>
@@ -44,25 +40,26 @@ export default class Cellier extends Component {
           <LazyLoad>
             <div className="cellier__text">
               <div className="cellier__title">Cellier</div>
-              <div className="cellier__shortTitle">
-                Full Stack Development
-              </div>
               <div className="cellier__spacing"></div>
               <div className="cellier__oneLiner">
-                Mapping all essential and fragrance oils of the world and helping people find and buy them. 
+                Mapping all essential and fragrance oils of the world and
+                helping people find and buy them.
               </div>
               <div className="cellier__spacing"></div>
+              <div className="cellier__technologies">Full Stack</div>
+              <div className="cellier__spacing"></div>
               <div className="cellier__technologies">
-                Javascript, React, Express, Knex, Node.js, Postgres, Vercel, Heroku
+                Front-end: React
+                <br />
+                Back-end: Express, Knex, Nodejs Postgres
+                <br />
+                Deployment: Vercel, Heroku
               </div>
               <div className="cellier__spacing"></div>
               <div className="mech__button">
                 <LinkContainer to="/project-page/cellier">
-                  <Button variant="outline-dark">
-                    View Project
-                  </Button>
+                  <Button variant="outline-dark">View Project</Button>
                 </LinkContainer>
-              <div className="mech__spacing"></div>
               </div>
             </div>
           </LazyLoad>

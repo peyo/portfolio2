@@ -40,22 +40,28 @@ export default class Mech extends Component {
           <LazyLoad>
             <div className="mech__text">
               <div className="mech__title">Mech</div>
-              <div className="mech__shortTitle">Full Stack Development</div>
               <div className="mech__spacing"></div>
               <div className="mech__oneLiner">
                 Organizing all car trouble codes and making it universally
                 accessible, human, and useful.
               </div>
               <div className="mech__spacing"></div>
+              <div className="mech__technologies">Full Stack</div>
+              <div className="mech__spacing"></div>
               <div className="mech__technologies">
-                Javascript, React, Express, Knex, Node.js, Postgres, Python, Vercel, Heroku
+                Front-end: React
+                <br />
+                Back-end: Express, Knex, Nodejs Postgres
+                <br />
+                Deployment: Vercel, Heroku
+                <br />
+                Miscellaneous: Python
               </div>
               <div className="mech__spacing"></div>
               <div className="mech__button">
                 <LinkContainer to="/project-page/mech">
-                  <Button variant="outline-dark">View Project</Button>
+                  <Button variant="outline-secondary">View Project</Button>
                 </LinkContainer>
-                <div className="mech__spacing"></div>
               </div>
             </div>
           </LazyLoad>

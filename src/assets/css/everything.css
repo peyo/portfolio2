@@ -12,6 +12,26 @@ body {
   flex-direction: column;
 }
 
+a, a:visited {
+  color: rgb(126, 126, 126);
+  text-decoration: underline;
+}
+
+a:hover {
+  color: rgb(126, 126, 126);
+  text-decoration: none;
+}
+
+.responsiveBurger__navLink, .responsiveBurger__navLink:visited {
+  color: black;
+  text-decoration: underline;
+}
+
+.responsiveBurger__navLink:hover {
+  color: black;
+  text-decoration: none;
+}
+
 /* navbar */
 .navbar__navbar {
   position: fixed;
@@ -75,12 +95,7 @@ body {
 }
 
 .header__spacing {
-  height: 30px;
-}
-
-.header__shortBio {
-  font-size: calc(9px + 2vw);
-  letter-spacing: 0;
+  height: 21px;
 }
 
 /* position and sizing of burger button */
@@ -167,16 +182,13 @@ body {
 .footer__footer {
   text-align: center;
   padding: 18px;
-  background-color: black;
-  color: white;
+  border-top: solid 1px #979797;
 }
 
 /* landing page sections */
 .subheader__container {
-  display: block;
   text-align: center;
-  align-items: center;
-  padding: 225px 120px 225px 120px;
+  padding: 66px 102px;
 }
 
 .shonk__container,
@@ -184,17 +196,16 @@ body {
 .cellier__container,
 .word__container {
   display: flex;
-  text-align: left;
   align-items: center;
-  padding: 225px 120px 225px 120px;
+  padding: 66px 102px;
 }
 
 .shonk__logo,
 .mech__logo,
 .cellier__logo,
 .word__logo {
-  width: 454px;
-  height: 454px;
+  width: 420px;
+  height: 420px;
 }
 
 .subheader__spacing,
@@ -209,7 +220,7 @@ body {
 .mech__title,
 .cellier__title,
 .word__title {
-  font-size: calc(12px + 2vw);
+  font-size: calc(7px + 2vw);
   letter-spacing: 0;
 }
 
@@ -217,7 +228,7 @@ body {
 .mech__shortTitle,
 .cellier__shortTitle,
 .word__shortTitle {
-  font-size: calc(12px + 1vw);
+  font-size: calc(7px + 1vw);
   letter-spacing: 0;
 }
 
@@ -225,14 +236,15 @@ body {
 .mech__spacing,
 .cellier__spacing,
 .word__spacing {
-  height: 30px;
+  height: 21px;
 }
 
+.subheader__shortBio,
 .shonk__oneLiner,
 .mech__oneLiner,
 .cellier__oneLiner,
 .word__oneLiner {
-  font-size: calc(9px + 1vw);
+  font-size: calc(7px + 1vw);
   letter-spacing: 0;
 }
 
@@ -240,7 +252,7 @@ body {
 .mech__technologies,
 .cellier__technologies,
 .word__technologies {
-  font-size: calc(9px + 1vw);
+  font-size: calc(7px + 1vw);
   letter-spacing: 0;
 }
 
@@ -302,7 +314,7 @@ body {
   display: flex;
   text-align: left;
   flex-direction: column;
-  padding: 90px 180px;
+  padding: 42px 132px;
 }
 
 .shonkChallenge__title,
@@ -323,7 +335,7 @@ body {
 .shonkPrototype__spacing1,
 .shonkLearnings__spacing1,
 .shonkNext__spacing1 {
-  height: 30px;
+  height: 21px;
 }
 
 .shonkChallenge__description,
@@ -347,7 +359,7 @@ body {
   display: flex;
   text-align: left;
   flex-direction: column;
-  padding: 0 180px 90px 180px;
+  padding: 0 132px 42px;
 }
 
 .shonkNext__ul {
@@ -426,7 +438,7 @@ body {
   display: flex;
   text-align: left;
   flex-direction: column;
-  padding: 90px 180px;
+  padding: 42px 132px;
 }
 
 .mechChallenge__title,
@@ -449,7 +461,7 @@ body {
 .mechPrototype__spacing1,
 .mechLearnings__spacing1,
 .mechNext__spacing1 {
-  height: 30px;
+  height: 21px;
 }
 
 .mechChallenge__description,
@@ -475,7 +487,7 @@ body {
   display: flex;
   text-align: left;
   flex-direction: column;
-  padding: 0 180px 90px 180px;
+  padding: 0 132px 42px;
 }
 
 .mechNext__ul {
@@ -554,7 +566,7 @@ body {
   display: flex;
   text-align: left;
   flex-direction: column;
-  padding: 90px 180px;
+  padding: 42px 132px;
 }
 
 .cellierChallenge__title,
@@ -575,7 +587,7 @@ body {
 .cellierPrototype__spacing1,
 .cellierLearnings__spacing1,
 .cellierNext__spacing1 {
-  height: 30px;
+  height: 21px;
 }
 
 .cellierChallenge__description,
@@ -599,7 +611,7 @@ body {
   display: flex;
   text-align: left;
   flex-direction: column;
-  padding: 0 180px 90px 180px;
+  padding: 0 132px 42px;
 }
 
 .cellierNext__ul {
@@ -682,7 +694,7 @@ body {
   display: flex;
   text-align: left;
   flex-direction: column;
-  padding: 90px 180px;
+  padding: 42px 132px;
 }
 
 .wordChallenge__title,
@@ -703,7 +715,7 @@ body {
 .wordPrototype__spacing1,
 .wordLearnings__spacing1,
 .wordNext__spacing1 {
-  height: 30px;
+  height: 21px;
 }
 
 .wordChallenge__description,
@@ -727,7 +739,7 @@ body {
   display: flex;
   text-align: left;
   flex-direction: column;
-  padding: 0 180px 90px 180px;
+  padding: 0 132px 42px;
 }
 
 .wordNext__ul {
@@ -834,8 +846,12 @@ body {
 
 /* extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-  .header__container {
-    padding: 0 33px;
+  /*.header__container {
+    padding: 0 66px;
+  }*/
+
+  .subheader__shortBio {
+    text-align: left;
   }
 
   .subheader__container,
@@ -844,15 +860,15 @@ body {
   .cellier__container,
   .word__container {
     flex-direction: column;
-    padding: 60px 90px;
+    padding: 30px 48px;
   }
 
   .shonk__logo,
   .mech__logo,
   .cellier__logo,
   .word__logo {
-    width: 270px;
-    height: 270px;
+    width: 360px;
+    height: 360px;
   }
 
   .shonkHeader__container,
@@ -871,7 +887,7 @@ body {
   .mechSubheader__shortDescription,
   .cellierSubheader__shortDescription,
   .wordSubheader__shortDescription {
-    padding: 30px;
+    padding: 30px 42px;
   }
   .shonkChallenge__container,
   .mechChallenge__container,
@@ -900,14 +916,14 @@ body {
   .wordPrototype__container,
   .wordLearnings__container,
   .wordNext__container {
-    padding: 0 30px 30px 30px;
+    padding: 0 42px 30px;
   }
 
   .shonk__spacing1,
   .mech__spacing1,
   .cellier__spacing1,
   .word__spacing1 {
-    height: 30px;
+    height: 21px;
   }
 
   .shonkApproach__spacing1,
@@ -940,10 +956,14 @@ body {
   }
 }
 
-/* small devices (landscape phones, 576px and up) */
+/* small devices (landscape phones, 576px and 767.98px) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-  .header__container {
+  /*.header__container {
     padding: 0 66px;
+  }*/
+
+  .subheader__shortBio {
+    text-align: left;
   }
 
   .subheader__container,
@@ -952,15 +972,15 @@ body {
   .cellier__container,
   .word__container {
     flex-direction: column;
-    padding: 100px 150px;
+    padding: 42px 72px;
   }
 
   .shonk__logo,
   .mech__logo,
   .cellier__logo,
   .word__logo {
-    width: 400px;
-    height: 400px;
+    width: 420px;
+    height: 420px;
   }
 
   .shonkHeader__container,
@@ -979,7 +999,7 @@ body {
   .mechSubheader__shortDescription,
   .cellierSubheader__shortDescription,
   .wordSubheader__shortDescription {
-    padding: 90px;
+    padding: 42px 90px;
   }
 
   .shonkChallenge__container,
@@ -1009,7 +1029,7 @@ body {
   .wordPrototype__container,
   .wordLearnings__container,
   .wordNext__container {
-    padding: 0 90px 90px 90px;
+    padding: 0 90px 42px;
   }
 
   .subheader__spacing,
@@ -1017,7 +1037,7 @@ body {
   .mech__spacing1,
   .cellier__spacing1,
   .word__spacing1 {
-    height: 30px;
+    height: 21px;
   }
 
   .shonkApproach__spacing1,
@@ -1050,11 +1070,11 @@ body {
   }
 }
 
-/* medium devices (tablets, 768px and up) */
+/* medium devices (tablets, 768px and 991.98px) */
 @media (min-width: 768px) and (max-width: 991.98px) {
-  .header__container {
+  /*.header__container {
     padding: 0 90px;
-  }
+  }*/
 
   .subheader__container,
   .shonk__container,
@@ -1062,15 +1082,15 @@ body {
   .cellier__container,
   .word__container {
     flex-direction: column;
-    padding: 100px 240px;
+    padding: 54px 132px;
   }
 
   .shonk__logo,
   .mech__logo,
   .cellier__logo,
   .word__logo {
-    width: 454px;
-    height: 454px;
+    width: 420px;
+    height: 420px;
   }
 
   .shonkHeader__container,
@@ -1089,7 +1109,7 @@ body {
   .mechSubheader__shortDescription,
   .cellierSubheader__shortDescription,
   .wordSubheader__shortDescription {
-    padding: 90px 180px;
+    padding: 51px 120px;
   }
 
   .shonkChallenge__container,
@@ -1119,7 +1139,7 @@ body {
   .wordPrototype__container,
   .wordLearnings__container,
   .wordNext__container {
-    padding: 0 180px 90px 180px;
+    padding: 0 120px 51px;
   }
 
   .subheader__spacing,
@@ -1127,7 +1147,7 @@ body {
   .mech__spacing1,
   .cellier__spacing1,
   .word__spacing1 {
-    height: 33px;
+    height: 24px;
   }
 
   .shonkApproach__spacing1,
@@ -1156,7 +1176,7 @@ body {
   .wordPrototype__spacing1,
   .wordLearnings__spacing1,
   .wordNext__spacing1 {
-    height: 33px;
+    height: 24px;
   }
 }
 

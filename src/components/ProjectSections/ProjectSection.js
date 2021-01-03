@@ -6,7 +6,7 @@ import Mech from "./components/Mech";
 import Line from "./components/Line";
 import Cellier from "./components/Cellier";
 import Shonk from "./components/Shonk";
-import Word from "./components/Word";
+//import Word from "./components/Word";
 
 export default class ProjectSection extends Component {
   render() {
@@ -18,8 +18,8 @@ export default class ProjectSection extends Component {
         <Cellier />
         <Line />
         <Shonk />
-        <Line />
-        <Word />
+        {/*<Line />
+        <Word />*/}
       </section>
     );
   }

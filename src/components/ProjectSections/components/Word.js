@@ -32,11 +32,7 @@ export default class Word extends Component {
           <LazyLoad once offset={100}>
             <StyleRoot>
               <div className="word__image" style={styles.fadeInLeft}>
-                <img
-                  alt="word logo"
-                  src={Logo}
-                  className="word__logo"
-                />{" "}
+                <img alt="word logo" src={Logo} className="word__logo" />{" "}
               </div>
             </StyleRoot>
           </LazyLoad>
@@ -44,21 +40,17 @@ export default class Word extends Component {
           <LazyLoad>
             <div className="word__text">
               <div className="word__title">Word</div>
-              <div className="word__shortTitle">Javascript and APIs</div>
               <div className="word__spacing"></div>
               <div className="word__oneLiner">
-                Helping people understand the meaning and feeling of words to better perceive and communicate with the world around them.
+                Helping people understand the meaning and feeling of words.
               </div>
               <div className="word__spacing"></div>
-              <div className="word__technologies">Javascript</div>
+              <div className="word__technologies">Javascript and APIs</div>
               <div className="word__spacing"></div>
               <div className="word__button">
                 <LinkContainer to="/project-page/word">
-                  <Button variant="outline-dark">
-                    View Project
-                  </Button>
+                  <Button variant="outline-dark">View Project</Button>
                 </LinkContainer>
-              <div className="word__spacing"></div>
               </div>
             </div>
           </LazyLoad>

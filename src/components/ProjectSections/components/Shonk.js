@@ -40,21 +40,26 @@ export default class Shonk extends Component {
           <LazyLoad>
             <div className="shonk__text">
               <div className="shonk__title">Shonk</div>
-              <div className="shonk__shortTitle">Full Stack Development</div>
               <div className="shonk__spacing"></div>
               <div className="shonk__oneLiner">
-                Creating short links to brand, track, and share links using a custom domain.
+                Creating short links with unique slugs to brand, track, and share links using a
+                custom domain.
               </div>
               <div className="shonk__spacing"></div>
+              <div className="shonk__technologies">Full Stack</div>
+              <div className="shonk__spacing"></div>
               <div className="shonk__technologies">
-                Javascript, React, Apollo, GraphQL, Node.js, Sequelize, SQLite, Vercel, CodeSandBox
+                Front-end: React, Apollo-Client
+                <br />
+                Back-end: Apollo-Server, GraphQL, Node.js, Sequelize, SQLite
+                <br/>
+                Deployment: Vercel, CodeSandBox
               </div>
               <div className="shonk__spacing"></div>
               <div className="shonk__button">
                 <LinkContainer to="/project-page/shonk">
                   <Button variant="outline-dark">View Project</Button>
                 </LinkContainer>
-                <div className="shonk__spacing"></div>
               </div>
             </div>
           </LazyLoad>

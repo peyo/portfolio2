@@ -6,6 +6,10 @@ import { slide as Menu } from "react-burger-menu";
 // bootstrap
 import Nav from "react-bootstrap/Nav";
 
+// menu
+import Hamburger from "../../assets/img/Menu/Hamburger/medium-rare.svg";
+//import Cross from "../../assets/img/Menu/Cross/bone-thugs.svg";
+
 function ResponsiveBurger() {
   const [width, setWidth] = useState(window.innerWidth);
   const breakPoint = 700;
@@ -51,7 +55,12 @@ function ResponsiveBurger() {
     );
   } else {
     return (
-      <Menu right width={"210px"} noOverlay>
+      <Menu
+        right
+        width={"210px"}
+        disableOverlayClick
+        customBurgerIcon={<img alt="hamburger, medium-rare" src={Hamburger} />}
+      >
         <Nav.Link
           href="https://www.linkedin.com/in/peteryyoon/"
           target="_blank"
