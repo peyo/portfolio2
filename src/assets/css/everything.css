@@ -87,7 +87,7 @@ a:hover {
 
 .header__helloWorld {
   color: #ffffff;
-  font-size: calc(12px + 1.5vw);
+  font-size: calc(12px + .5vw);
   text-align: center;
   padding: 69vh 0 0 0;
   letter-spacing: 0;
@@ -210,15 +210,7 @@ a:hover {
 .mech__title,
 .cellier__title,
 .word__title {
-  font-size: calc(7px + 2vw);
-  letter-spacing: 0;
-}
-
-.shonk__shortTitle,
-.mech__shortTitle,
-.cellier__shortTitle,
-.word__shortTitle {
-  font-size: calc(7px + 1vw);
+  font-size: calc(12px + 1vw);
   letter-spacing: 0;
 }
 
@@ -234,7 +226,7 @@ a:hover {
 .mech__oneLiner,
 .cellier__oneLiner,
 .word__oneLiner {
-  font-size: calc(7px + 1vw);
+  font-size: calc(12px + .5vw);
   letter-spacing: 0;
 }
 
@@ -242,7 +234,7 @@ a:hover {
 .mech__technologies,
 .cellier__technologies,
 .word__technologies {
-  font-size: calc(7px + 1vw);
+  font-size: calc(12px + .5vw);
   letter-spacing: 0;
 }
 
@@ -288,7 +280,7 @@ a:hover {
 
 .shonkHeader__shortDescription {
   color: #ffffff;
-  font-size: calc(12px + 1.5vw);
+  font-size: calc(12px + .5vw);
   text-align: center;
   padding: 69vh 0 0 0;
   letter-spacing: 0;
@@ -314,7 +306,7 @@ a:hover {
 .shonkPrototype__title,
 .shonkLearnings__title,
 .shonkNext__title {
-  font-size: calc(12px + 1.5vw);
+  font-size: calc(12px + 1vw);
   letter-spacing: 0;
 }
 
@@ -367,15 +359,15 @@ a:hover {
 }
 
 .shonkFooter__title {
-  font-size: calc(9px + 2vw);
-  opacity: 0.38;
+  font-size: calc(10px + 1vw);
   letter-spacing: 0;
   text-decoration: underline;
-  color: rgb(88, 88, 88);
+  color:rgb(126, 126, 126);
 }
 
 .shonkFooter__title:hover {
-  color: rgb(25, 25, 25);
+  color: rgb(126, 126, 126);
+  text-decoration: none;
 }
 
 .shonkFooter__subtitle {
@@ -416,7 +408,7 @@ a:hover {
 
 .mechHeader__shortDescription {
   color: #ffffff;
-  font-size: calc(12px + 1.5vw);
+  font-size: calc(12px + .5vw);
   text-align: center;
   padding: 69vh 0 0 0;
   letter-spacing: 0;
@@ -439,7 +431,7 @@ a:hover {
 .mechPrototype__title,
 .mechLearnings__title,
 .mechNext__title {
-  font-size: calc(12px + 1.5vw);
+  font-size: calc(12px + 1vw);
   letter-spacing: 0;
 }
 
@@ -488,26 +480,26 @@ a:hover {
 }
 
 .mechFooter__container {
-  padding: 120px;
+  padding: 60px;
   text-align: center;
   background-image: url(../../assets/img/Footer/Footer.png);
   background-size: 100% 100%;
 }
 
-.mechFooter__title {
-  font-size: calc(9px + 2vw);
-  opacity: 0.38;
+.mechFooter__title, .mechFooter__title:visited {
+  font-size: calc(10px + 1vw);
   letter-spacing: 0;
   text-decoration: underline;
-  color: rgb(88, 88, 88);
+  color:rgb(126, 126, 126);
 }
 
 .mechFooter__title:hover {
-  color: rgb(25, 25, 25);
+  color: rgb(126, 126, 126);
+  text-decoration: none;
 }
 
 .mechFooter__subtitle {
-  font-size: calc(12px + 6vw);
+  font-size: calc(12px + 1vw);
   letter-spacing: 0;
 }
 
@@ -544,7 +536,7 @@ a:hover {
 
 .cellierHeader__shortDescription {
   color: #ffffff;
-  font-size: calc(12px + 1.5vw);
+  font-size: calc(12px + .5vw);
   text-align: center;
   padding: 69vh 0 0 0;
   letter-spacing: 0;
@@ -566,7 +558,7 @@ a:hover {
 .cellierPrototype__title,
 .cellierLearnings__title,
 .cellierNext__title {
-  font-size: calc(12px + 1.5vw);
+  font-size: calc(12px + 1vw);
   letter-spacing: 0;
 }
 
@@ -619,15 +611,15 @@ a:hover {
 }
 
 .cellierFooter__title {
-  font-size: calc(9px + 2vw);
-  opacity: 0.38;
+  font-size: calc(10px + 1vw);
   letter-spacing: 0;
   text-decoration: underline;
-  color: rgb(88, 88, 88);
+  color:rgb(126, 126, 126);
 }
 
 .cellierFooter__title:hover {
-  color: rgb(25, 25, 25);
+  color: rgb(126, 126, 126);
+  text-decoration: none;
 }
 
 .cellierFooter__subtitle {
@@ -668,7 +660,7 @@ a:hover {
 
 .wordHeader__shortDescription {
   color: #ffffff;
-  font-size: calc(12px + 1.5vw);
+  font-size: calc(12px + .5vw);
   text-align: center;
   padding: 69vh 0 0 0;
   letter-spacing: 0;
@@ -694,7 +686,7 @@ a:hover {
 .wordPrototype__title,
 .wordLearnings__title,
 .wordNext__title {
-  font-size: calc(12px + 1.5vw);
+  font-size: calc(12px + 1vw);
   letter-spacing: 0;
 }
 
@@ -747,15 +739,15 @@ a:hover {
 }
 
 .wordFooter__title {
-  font-size: calc(9px + 2vw);
-  opacity: 0.38;
+  font-size: calc(10px + 1vw);
   letter-spacing: 0;
   text-decoration: underline;
-  color: rgb(88, 88, 88);
+  color:rgb(126, 126, 126);
 }
 
 .wordFooter__title:hover {
-  color: rgb(25, 25, 25);
+  color: rgb(126, 126, 126);
+  text-decoration: none;
 }
 
 .wordFooter__subtitle {
@@ -1193,6 +1185,6 @@ a:hover {
 }
 
 .notFoundBody__youWanderer {
-  font-size: calc(11px + 1vw);
+  font-size: calc(12px + 1vw);
   letter-spacing: 0;
 }

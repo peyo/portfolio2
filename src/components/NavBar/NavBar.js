@@ -33,7 +33,7 @@ function NavBar() {
         <Navbar
           className="navbar__navbar"
           style={{
-            backgroundColor: navBackground ? "#ffffff" : "transparent",
+            backgroundColor: navBackground ? "#ffffff" : "#ffffff",
           }}
         >
           <Navbar.Brand>
