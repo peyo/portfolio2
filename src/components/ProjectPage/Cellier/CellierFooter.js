@@ -11,13 +11,13 @@ export default class CellierHeader extends Component {
     return (
       <section className="cellierFooter__footer">
         <div className="cellierFooter__container">
-          <Link to="/project-page/word">
+          <Link to="/project-page/shonk">
           <div className="cellierFooter__title">
             Next Project
           </div>
           </Link>
           <div className="cellierFooter__subtitle">
-            Word
+            Shonk
           </div>
         </div>
       </section>
