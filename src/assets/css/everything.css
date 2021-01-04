@@ -293,6 +293,7 @@ a:hover {
 
 /* shonk project page sections */
 .shonkSubheader__shortDescription {
+  font-size: calc(12px + .5vw);
   display: flex;
   text-align: left;
   flex-direction: column;
@@ -417,6 +418,7 @@ a:hover {
 
 /* mech project page sections */
 .mechSubheader__shortDescription {
+  font-size: calc(12px + .5vw);
   display: flex;
   text-align: left;
   flex-direction: column;
@@ -545,6 +547,7 @@ a:hover {
 
 /* cellier project page sections */
 .cellierSubheader__shortDescription {
+  font-size: calc(12px + .5vw);
   display: flex;
   text-align: left;
   flex-direction: column;
@@ -673,6 +676,7 @@ a:hover {
 
 /* word project page sections */
 .wordSubheader__shortDescription {
+  font-size: calc(12px + .5vw);
   display: flex;
   text-align: left;
   flex-direction: column;
@@ -869,6 +873,7 @@ a:hover {
   .mechSubheader__shortDescription,
   .cellierSubheader__shortDescription,
   .wordSubheader__shortDescription {
+    font-size: calc(12px + .5vw);
     padding: 30px 42px;
   }
   .shonkChallenge__container,
@@ -981,6 +986,7 @@ a:hover {
   .mechSubheader__shortDescription,
   .cellierSubheader__shortDescription,
   .wordSubheader__shortDescription {
+    font-size: calc(12px + .5vw);
     padding: 42px 90px;
   }
 
@@ -1091,6 +1097,7 @@ a:hover {
   .mechSubheader__shortDescription,
   .cellierSubheader__shortDescription,
   .wordSubheader__shortDescription {
+    font-size: calc(12px + .5vw);
     padding: 51px 120px;
   }
 
