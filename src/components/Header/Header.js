@@ -41,7 +41,7 @@ function Header() {
       </div>
       <StyleRoot>
         <div className="header__container" style={styles.fadeInDown}>
-          <div className="header__helloWorld">Hello World. I'm Peter.</div>
+          <div className="header__helloWorld">HELLO WORLD. I'M PETER.</div>
           <div className="header__spacing"></div>
         </div>
       </StyleRoot>

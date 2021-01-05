@@ -24,7 +24,7 @@ function CellierHeader() {
       <StyleRoot>
         <div className="cellierHeader__container" style={styles.fadeInDown}>
           <div className="cellierHeader__shortDescription">
-            Cellier
+            CELLIER
           </div>
         </div>
       </StyleRoot>

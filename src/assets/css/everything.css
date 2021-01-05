@@ -12,7 +12,8 @@ body {
   flex-direction: column;
 }
 
-a, a:visited {
+a,
+a:visited {
   color: rgb(126, 126, 126);
   text-decoration: underline;
 }
@@ -22,7 +23,8 @@ a:hover {
   text-decoration: none;
 }
 
-.responsiveBurger__navLink, .responsiveBurger__navLink:visited {
+.responsiveBurger__navLink,
+.responsiveBurger__navLink:visited {
   color: black;
   text-decoration: underline;
 }
@@ -79,19 +81,17 @@ a:hover {
 
 .header__container {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  height: 90vh;
-  padding: 0 120px 0 120px;
 }
 
 .header__helloWorld {
   color: #ffffff;
-  font-size: calc(12px + .5vw);
+  font-size: calc(12px + 0.5vw);
   text-align: center;
-  padding: 69vh 0 0 0;
+  margin: 80vh 0 0 0;
   letter-spacing: 0;
   min-width: auto;
+  background-color: black;
 }
 
 .header__spacing {
@@ -226,7 +226,7 @@ a:hover {
 .mech__oneLiner,
 .cellier__oneLiner,
 .word__oneLiner {
-  font-size: calc(12px + .5vw);
+  font-size: calc(12px + 0.5vw);
   letter-spacing: 0;
 }
 
@@ -234,7 +234,7 @@ a:hover {
 .mech__technologies,
 .cellier__technologies,
 .word__technologies {
-  font-size: calc(12px + .5vw);
+  font-size: calc(12px + 0.5vw);
   letter-spacing: 0;
 }
 
@@ -272,19 +272,17 @@ a:hover {
 
 .shonkHeader__container {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  height: 90vh;
-  padding: 0 120px 0 120px;
 }
 
 .shonkHeader__shortDescription {
   color: #ffffff;
-  font-size: calc(12px + .5vw);
+  font-size: calc(12px + 0.5vw);
   text-align: center;
-  padding: 69vh 0 0 0;
+  margin: 80vh 0 0 0;
   letter-spacing: 0;
   min-width: auto;
+  background-color: black;
 }
 
 .shonkHeader__spacing1 {
@@ -293,7 +291,7 @@ a:hover {
 
 /* shonk project page sections */
 .shonkSubheader__shortDescription {
-  font-size: calc(12px + .5vw);
+  font-size: calc(12px + 0.5vw);
   display: flex;
   text-align: left;
   flex-direction: column;
@@ -328,7 +326,7 @@ a:hover {
 .shonkPrototype__description,
 .shonkLearnings__description,
 .shonkNext__description {
-  font-size: calc(12px + .5vw);
+  font-size: calc(12px + 0.5vw);
   letter-spacing: 0;
 }
 
@@ -363,7 +361,7 @@ a:hover {
   font-size: calc(10px + 1vw);
   letter-spacing: 0;
   text-decoration: underline;
-  color:rgb(126, 126, 126);
+  color: rgb(126, 126, 126);
 }
 
 .shonkFooter__title:hover {
@@ -372,7 +370,7 @@ a:hover {
 }
 
 .shonkFooter__subtitle {
-  font-size: calc(12px + 6vw);
+  font-size: calc(12px + 2vw);
   letter-spacing: 0;
 }
 
@@ -401,24 +399,22 @@ a:hover {
 
 .mechHeader__container {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  height: 90vh;
-  padding: 0 120px 0 120px;
 }
 
 .mechHeader__shortDescription {
   color: #ffffff;
-  font-size: calc(12px + .5vw);
+  font-size: calc(12px + 0.5vw);
   text-align: center;
-  padding: 69vh 0 0 0;
+  margin: 80vh 0 0 0;
   letter-spacing: 0;
   min-width: auto;
+  background-color: black;
 }
 
 /* mech project page sections */
 .mechSubheader__shortDescription {
-  font-size: calc(12px + .5vw);
+  font-size: calc(12px + 0.5vw);
   display: flex;
   text-align: left;
   flex-direction: column;
@@ -456,7 +452,7 @@ a:hover {
 .mechPrototype__description,
 .mechLearnings__description,
 .mechNext__description {
-  font-size: calc(12px + .5vw);
+  font-size: calc(12px + 0.5vw);
   letter-spacing: 0;
 }
 
@@ -488,11 +484,12 @@ a:hover {
   background-size: 100% 100%;
 }
 
-.mechFooter__title, .mechFooter__title:visited {
+.mechFooter__title,
+.mechFooter__title:visited {
   font-size: calc(10px + 1vw);
   letter-spacing: 0;
   text-decoration: underline;
-  color:rgb(126, 126, 126);
+  color: rgb(126, 126, 126);
 }
 
 .mechFooter__title:hover {
@@ -501,7 +498,7 @@ a:hover {
 }
 
 .mechFooter__subtitle {
-  font-size: calc(12px + 1vw);
+  font-size: calc(12px + 2vw);
   letter-spacing: 0;
 }
 
@@ -530,24 +527,22 @@ a:hover {
 
 .cellierHeader__container {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  height: 90vh;
-  padding: 0 120px 0 120px;
 }
 
 .cellierHeader__shortDescription {
   color: #ffffff;
-  font-size: calc(12px + .5vw);
+  font-size: calc(12px + 0.5vw);
   text-align: center;
-  padding: 69vh 0 0 0;
+  margin: 80vh 0 0 0;
   letter-spacing: 0;
   min-width: auto;
+  background-color: black;
 }
 
 /* cellier project page sections */
 .cellierSubheader__shortDescription {
-  font-size: calc(12px + .5vw);
+  font-size: calc(12px + 0.5vw);
   display: flex;
   text-align: left;
   flex-direction: column;
@@ -582,7 +577,7 @@ a:hover {
 .cellierPrototype__description,
 .cellierLearnings__description,
 .cellierNext__description {
-  font-size: calc(12px + .5vw);
+  font-size: calc(12px + 0.5vw);
   letter-spacing: 0;
 }
 
@@ -617,7 +612,7 @@ a:hover {
   font-size: calc(10px + 1vw);
   letter-spacing: 0;
   text-decoration: underline;
-  color:rgb(126, 126, 126);
+  color: rgb(126, 126, 126);
 }
 
 .cellierFooter__title:hover {
@@ -626,7 +621,7 @@ a:hover {
 }
 
 .cellierFooter__subtitle {
-  font-size: calc(12px + 6vw);
+  font-size: calc(12px + 2vw);
   letter-spacing: 0;
 }
 
@@ -655,19 +650,17 @@ a:hover {
 
 .wordHeader__container {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  height: 90vh;
-  padding: 0 120px 0 120px;
 }
 
 .wordHeader__shortDescription {
   color: #ffffff;
-  font-size: calc(12px + .5vw);
+  font-size: calc(12px + 0.5vw);
   text-align: center;
-  padding: 69vh 0 0 0;
+  margin: 80vh 0 0 0;
   letter-spacing: 0;
   min-width: auto;
+  background-color: black;
 }
 
 .wordHeader__spacing1 {
@@ -676,7 +669,7 @@ a:hover {
 
 /* word project page sections */
 .wordSubheader__shortDescription {
-  font-size: calc(12px + .5vw);
+  font-size: calc(12px + 0.5vw);
   display: flex;
   text-align: left;
   flex-direction: column;
@@ -711,7 +704,7 @@ a:hover {
 .wordPrototype__description,
 .wordLearnings__description,
 .wordNext__description {
-  font-size: calc(12px + .5vw);
+  font-size: calc(12px + 0.5vw);
   letter-spacing: 0;
 }
 
@@ -746,7 +739,7 @@ a:hover {
   font-size: calc(10px + 1vw);
   letter-spacing: 0;
   text-decoration: underline;
-  color:rgb(126, 126, 126);
+  color: rgb(126, 126, 126);
 }
 
 .wordFooter__title:hover {
@@ -755,7 +748,7 @@ a:hover {
 }
 
 .wordFooter__subtitle {
-  font-size: calc(12px + 6vw);
+  font-size: calc(12px + 2vw);
   letter-spacing: 0;
 }
 
@@ -832,10 +825,6 @@ a:hover {
 
 /* extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-  /*.header__container {
-    padding: 0 66px;
-  }*/
-
   .subheader__shortBio {
     text-align: left;
   }
@@ -857,23 +846,21 @@ a:hover {
     height: 360px;
   }
 
+  .header__container,
   .shonkHeader__container,
   .mechHeader__container,
   .cellierHeader__container,
   .wordHeader__container,
   .notFoundBody__container {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    height: 90vh;
-    padding: 0 120px 0 120px;
   }
 
   .shonkSubheader__shortDescription,
   .mechSubheader__shortDescription,
   .cellierSubheader__shortDescription,
   .wordSubheader__shortDescription {
-    font-size: calc(12px + .5vw);
+    font-size: calc(12px + 0.5vw);
     padding: 30px 42px;
   }
   .shonkChallenge__container,
@@ -945,10 +932,6 @@ a:hover {
 
 /* small devices (landscape phones, 576px and 767.98px) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-  /*.header__container {
-    padding: 0 66px;
-  }*/
-
   .subheader__shortBio {
     text-align: left;
   }
@@ -970,23 +953,21 @@ a:hover {
     height: 420px;
   }
 
+  .header__container,
   .shonkHeader__container,
   .mechHeader__container,
   .cellierHeader__container,
   .wordHeader__container,
   .notFoundBody__container {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    height: 90vh;
-    padding: 0 120px 0 120px;
   }
 
   .shonkSubheader__shortDescription,
   .mechSubheader__shortDescription,
   .cellierSubheader__shortDescription,
   .wordSubheader__shortDescription {
-    font-size: calc(12px + .5vw);
+    font-size: calc(12px + 0.5vw);
     padding: 42px 90px;
   }
 
@@ -1060,10 +1041,6 @@ a:hover {
 
 /* medium devices (tablets, 768px and 991.98px) */
 @media (min-width: 768px) and (max-width: 991.98px) {
-  /*.header__container {
-    padding: 0 90px;
-  }*/
-
   .subheader__container,
   .shonk__container,
   .mech__container,
@@ -1081,23 +1058,21 @@ a:hover {
     height: 420px;
   }
 
+  .header__container,
   .shonkHeader__container,
   .mechHeader__container,
   .cellierHeader__container,
   .wordHeader__container,
   .notFoundBody__container {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    height: 90vh;
-    padding: 0 120px 0 120px;
   }
 
   .shonkSubheader__shortDescription,
   .mechSubheader__shortDescription,
   .cellierSubheader__shortDescription,
   .wordSubheader__shortDescription {
-    font-size: calc(12px + .5vw);
+    font-size: calc(12px + 0.5vw);
     padding: 51px 120px;
   }
 

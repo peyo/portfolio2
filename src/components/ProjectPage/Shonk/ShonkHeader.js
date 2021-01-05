@@ -24,7 +24,7 @@ function ShonkHeader() {
       <StyleRoot>
         <div className="shonkHeader__container" style={styles.fadeInDown}>
           <div className="shonkHeader__shortDescription">
-            Shonk
+            SHONK
           </div>
         </div>
       </StyleRoot>

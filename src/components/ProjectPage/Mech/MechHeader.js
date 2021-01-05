@@ -24,7 +24,7 @@ function MechHeader() {
       <StyleRoot>
         <div className="mechHeader__container" style={styles.fadeInDown}>
           <div className="mechHeader__shortDescription">
-            Mech
+            MECH
           </div>
         </div>
       </StyleRoot>
