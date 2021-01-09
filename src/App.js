@@ -23,7 +23,9 @@ export default class App extends Component {
               path="/project-page/cellier"
               component={LoadableCellierPage}
             />
-            {/*<Route path="/project-page/word" component={LoadableWordPage} />*/}
+            {/* DEPRECATED
+            <Route path="/project-page/word" component={LoadableWordPage} />
+            */}
             <Route path="/resume-page/resume" component={LoadableResumePage} />
             <Route path="/404" component={LoadableNotFoundPage} />
             <Redirect to="/404" />
@@ -84,7 +86,7 @@ const LoadableCellierPage = Loadable({
   delay: 300,
 });
 
-/*
+/* DEPRECATED
 const LoadableWordPage = Loadable({
   loader: () => import("./routes/ProjectPage/WordPage"),
   loading: Loading,
