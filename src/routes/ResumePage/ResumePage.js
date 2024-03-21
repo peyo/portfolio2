@@ -55,9 +55,6 @@ export default class ResumePage extends Component {
               <Page key={`page_${index + 1}`} pageNumber={index + 1} width={PDFWidth} />
             ))}
           </Document>
-          <p>
-            Pages 1-{numPages} of {numPages}
-          </p>
         </div>
       </section>
     );
