@@ -15,7 +15,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 export default class ResumePage extends Component {
   state = {
     numPages: null,
-    pageNumber: '1-' + this.state.numPages, // Set to a range from the first page to the last page
+    pageNumber: 1,
     PDFWidth: null
   };
   myInput = React.createRef()
@@ -42,7 +42,7 @@ export default class ResumePage extends Component {
   }
 
   render() {
-    const { numPages, PDFWidth } = this.state;
+    const { numPages, pageNumber, PDFWidth } = this.state;
   
     return (
       <section className="resumePage">
@@ -51,7 +51,7 @@ export default class ResumePage extends Component {
             file={Resume}
             onLoadSuccess={this.onDocumentLoadSuccess}
           >
-            {[...Array(numPages)].map((_, index) => (
+            {numPages && [...Array(numPages)].map((_, index) => (
               <Page key={`page_${index + 1}`} pageNumber={index + 1} width={PDFWidth} />
             ))}
           </Document>
