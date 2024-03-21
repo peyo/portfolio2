@@ -15,7 +15,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 export default class ResumePage extends Component {
   state = {
     numPages: null,
-    pageNumber: 1,
+    pageNumber: '1-' + this.state.numPages, // Set to a range from the first page to the last page
     PDFWidth: null
   };
   myInput = React.createRef()
