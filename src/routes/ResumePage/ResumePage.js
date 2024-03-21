@@ -42,8 +42,8 @@ export default class ResumePage extends Component {
   }
 
   render() {
-    const { pageNumber, numPages, PDFWidth } = this.state;
-
+    const { numPages, PDFWidth } = this.state;
+  
     return (
       <section className="resumePage">
         <div ref={this.myInput}>
@@ -51,13 +51,15 @@ export default class ResumePage extends Component {
             file={Resume}
             onLoadSuccess={this.onDocumentLoadSuccess}
           >
-            <Page pageNumber={pageNumber} width={PDFWidth} />
+            {[...Array(numPages)].map((_, index) => (
+              <Page key={`page_${index + 1}`} pageNumber={index + 1} width={PDFWidth} />
+            ))}
           </Document>
           <p>
-            Page {pageNumber} of {numPages}
+            Pages 1-{numPages} of {numPages}
           </p>
         </div>
       </section>
     );
-  }
+  }  
 }
