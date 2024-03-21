@@ -42,7 +42,7 @@ export default class ResumePage extends Component {
   }
 
   render() {
-    const { numPages, PDFWidth } = this.state;
+    const { pageNumber, numPages, PDFWidth } = this.state;
   
     return (
       <section className="resumePage">
@@ -51,13 +51,13 @@ export default class ResumePage extends Component {
             file={Resume}
             onLoadSuccess={this.onDocumentLoadSuccess}
           >
-            {[...Array(numPages)].map((_, index) => (
-              <Page key={`page_${index + 1}`} pageNumber={index + 1} width={PDFWidth} />
-            ))}
+            <Page pageNumber={pageNumber} width={PDFWidth} />
           </Document>
-          <p>
-            Pages 1-{numPages} of {numPages}
-          </p>
+          {pageNumber <= numPages && ( // Conditionally render based on pageNumber and numPages
+            <p>
+              Page {pageNumber} of {numPages}
+            </p>
+          )}
         </div>
       </section>
     );
