@@ -15,7 +15,6 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 export default class ResumePage extends Component {
   state = {
     numPages: null,
-    pageNumber: 1,
     PDFWidth: null
   };
   myInput = React.createRef()
@@ -27,13 +26,12 @@ export default class ResumePage extends Component {
   componentDidMount() {
     // setting width at initial
     this.setPDFWidth()
-
     // event listener when window is resized
-    window.addEventListener('resize', throttle(this.setPDFWidth, 500))
+    window.addEventListener('resize', this.setPDFWidth)
   }
 
   componentWillUnmount() {
-    window.removeEventListener('resize', throttle(this.setPDFWidth, 500))
+    window.removeEventListener('resize', this.setPDFWidth)
   }
 
   setPDFWidth = () => {
@@ -42,7 +40,7 @@ export default class ResumePage extends Component {
   }
 
   render() {
-    const { numPages, pageNumber, PDFWidth } = this.state;
+    const { numPages, PDFWidth } = this.state;
   
     return (
       <section className="resumePage">
@@ -51,10 +49,20 @@ export default class ResumePage extends Component {
             file={Resume}
             onLoadSuccess={this.onDocumentLoadSuccess}
           >
-            {numPages && [...Array(numPages)].map((_, index) => (
-              <Page key={`page_${index + 1}`} pageNumber={index + 1} width={PDFWidth} />
-            ))}
+            {Array.from(
+              new Array(numPages),
+              (el, index) => (
+                <Page
+                  key={`page_${index + 1}`}
+                  pageNumber={index + 1}
+                  width={PDFWidth}
+                />
+              )
+            )}
           </Document>
+          <p>
+            Pages 1-{numPages} of {numPages}
+          </p>
         </div>
       </section>
     );
