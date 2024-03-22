@@ -50,7 +50,9 @@ export default class ResumePage extends Component {
             onLoadSuccess={this.onDocumentLoadSuccess}
           >
             {[1,2].map(page => (
-                <Page pageNumber={page} />
+              <Page
+              pageNumber={page}
+              width={PDFWidth} />
             ))}
           </Document>
         </div>
