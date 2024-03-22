@@ -49,20 +49,10 @@ export default class ResumePage extends Component {
             file={Resume}
             onLoadSuccess={this.onDocumentLoadSuccess}
           >
-            {Array.from(
-              new Array(numPages),
-              (el, index) => (
-                <Page
-                  key={`page_${index + 1}`}
-                  pageNumber={index + 1}
-                  width={PDFWidth}
-                />
-              )
-            )}
+            {[1,2].map(page => (
+                <Page pageNumber={page} />
+            ))}
           </Document>
-          <p>
-            Pages 1-{numPages} of {numPages}
-          </p>
         </div>
       </section>
     );
