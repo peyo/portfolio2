@@ -44,13 +44,6 @@ function ResponsiveBurger() {
         >
           <div className="responsiveBurger__navLink">leetcode</div>
         </Nav.Link>
-        <Nav.Link
-          href="/resume-page/resume"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <div className="responsiveBurger__navLink">resume</div>
-        </Nav.Link>
       </div>
     );
   } else {
@@ -81,13 +74,6 @@ function ResponsiveBurger() {
           rel="noopener noreferrer"
         >
           <div className="responsiveBurger__navLink">leetcode</div>
-        </Nav.Link>
-        <Nav.Link
-          href="/resume-page/resume"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <div className="responsiveBurger__navLink">resume</div>
         </Nav.Link>
       </Menu>
     );

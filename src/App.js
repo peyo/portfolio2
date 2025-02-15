@@ -17,16 +17,12 @@ export default class App extends Component {
         <Analytics id="G-S78FFFJZQR">
           <Switch>
             <Route exact path="/" component={LoadableLandingPage} />
-            <Route path="/project-page/shonk" component={LoadableShonkPage} />
+            <Route path="/project-page/spinventory" component={LoadableSpinventoryPage} />
             <Route path="/project-page/mech" component={LoadableMechPage} />
-            <Route
-              path="/project-page/cellier"
-              component={LoadableCellierPage}
-            />
-            {/* DEPRECATED
+            <Route path="/project-page/cellier" component={LoadableCellierPage}/>
+            <Route path="/project-page/shonk" component={LoadableShonkPage} />
             <Route path="/project-page/word" component={LoadableWordPage} />
-            */}
-            <Route path="/resume-page/resume" component={LoadableResumePage} />
+            {/*<Route path="/resume-page/resume" component={LoadableResumePage} />*/}
             <Route path="/404" component={LoadableNotFoundPage} />
             <Redirect to="/404" />
           </Switch>
@@ -68,8 +64,8 @@ const LoadableLandingPage = Loadable({
   delay: 300,
 });
 
-const LoadableShonkPage = Loadable({
-  loader: () => import("./routes/ProjectPage/ShonkPage"),
+const LoadableSpinventoryPage = Loadable({
+  loader: () => import("./routes/ProjectPage/SpinventoryPage"),
   loading: Loading,
   delay: 300,
 });
@@ -86,19 +82,23 @@ const LoadableCellierPage = Loadable({
   delay: 300,
 });
 
-/* DEPRECATED
+const LoadableShonkPage = Loadable({
+  loader: () => import("./routes/ProjectPage/ShonkPage"),
+  loading: Loading,
+  delay: 300,
+});
+
 const LoadableWordPage = Loadable({
   loader: () => import("./routes/ProjectPage/WordPage"),
   loading: Loading,
   delay: 300,
 });
-*/
 
-const LoadableResumePage = Loadable({
-  loader: () => import("./routes/ResumePage/ResumePage"),
+{/*const LoadableResumePage = Loadable({
+  loader: () => import("./routes/DEPRECATED - ResumePage/ResumePage"),
   loading: Loading,
   delay: 300,
-});
+});*/}
 
 const LoadableNotFoundPage = Loadable({
   loader: () => import("./routes/NotFoundPage/NotFoundPage"),

@@ -51,7 +51,9 @@ export default class Shonk extends Component {
               <div className="shonk__technologies">
                 Front-end: React, Apollo-Client
                 <br />
-                Back-end: Apollo-Server, GraphQL, Node.js, Sequelize, SQLite
+                Back-end: Apollo-Server, GraphQL, Node.js, Sequelize
+                <br/>
+                Database: SQLite
                 <br/>
                 Deployment: Vercel, CodeSandBox
               </div>

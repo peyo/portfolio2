@@ -4,7 +4,7 @@ function Footer() {
   return (
     <section className="footer__footer">
       <div className="footer__copy">
-        ©2024 Peter Yoon
+        © Peter Yoon
       </div>
     </section>
   );

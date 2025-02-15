@@ -51,12 +51,14 @@ export default class Cellier extends Component {
               <div className="cellier__technologies">
                 Front-end: React
                 <br />
-                Back-end: Express, Knex, Nodejs Postgres
+                Back-end: Express.js, Knex, Node.js
+                <br />
+                Database: Postgres
                 <br />
                 Deployment: Vercel, Heroku
               </div>
               <div className="cellier__spacing"></div>
-              <div className="mech__button">
+              <div className="cellier__button">
                 <LinkContainer to="/project-page/cellier">
                   <Button variant="outline-dark">View Project</Button>
                 </LinkContainer>
